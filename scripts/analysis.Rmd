@@ -1,0 +1,321 @@
+Analyse du questionnaire sur les pratiques de publication en informatique
+========================================================
+
+Analyse du questionnaire sur les [pratiques de publication](https://framaforms.org/questionnaire-sur-les-pratiques-de-publication-1535895902).
+
+```{r echo=FALSE, message=FALSE}
+library(ggplot2)
+library(xtable)
+library(FactoMineR)
+library(dplyr)
+library(knitr)
+library(tm)
+library(wordcloud)
+library(kableExtra)
+
+answers = read.csv("questionnaire_sur_les_pratiques_de_publication.tsv", encoding = "UTF-8", stringsAsFactor=FALSE,sep="\t",skip = 2, header = TRUE,na.strings=c("","NA"))["Brouillon" != 1,]
+answers = answers[,10:80] # ignore useless columns
+thematiques = colnames(answers[1:13])
+associations = colnames(answers[16:35])
+```
+
+Ce questionnaire a été relayé par les associations et GDR suivants :
+
+`r associations`
+
+```{r echo=FALSE,message=FALSE}
+restriction="toutes"
+#restriction="ACM.SIGGRAPH.France"
+#restriction="AFIA"
+#restriction="AFIG"
+#restriction="AFIHM"
+#restriction="AFPC"
+#restriction="ARIA"
+#restriction="ASF"
+#restriction="ATALA"
+#restriction="ATIEF"
+#restriction="BDA"
+#restriction="EGC"
+#restriction="GDR.IG.RV"
+#restriction="GDR.IM"
+#restriction="GRCE"
+#restriction="INFORSID"
+#restriction="ROADEF"
+#restriction="SIF"
+#restriction="SPECIF.Campus"
+#restriction="SSFAM"
+#restriction="autre"
+#answers = answers[answers[restriction] == 'X',]
+nbreponses = nrow(answers)
+answers = unique(answers) # remove duplicates
+nbreponsesuniques = nrow(answers)
+```
+Cette analyse est restreinte aux adhérents de l'association : **`r restriction`**
+
+```{r echo=FALSE,message=FALSE}
+
+f = function(t,df) {count(filter(df,df[t]=='X'))}
+mytable = function(t) {kable(t)  %>% kable_styling(bootstrap_options = c("striped", "hover"))}
+mywordcloud = function(t) {
+   text_corpus <- Corpus(VectorSource(t))
+   text_corpus <- tm_map(text_corpus, content_transformer(tolower))
+   text_corpus <- tm_map(text_corpus, removePunctuation)
+   text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords(kind = "fr")))
+   set.seed(123456)
+   wordcloud(text_corpus, max.words = 200, colors = brewer.pal(8, "Dark2"),  rot.per=0)
+}
+mychoices = function (t) {as.data.frame(table(t))}
+mydetails = function (v) {mytable(t(with(answers,table(v,answers$theme))))}
+
+mycheckboxes = function (x) {
+   titres = colnames(x)
+   result = as.data.frame(sapply(titres,f,df=x))
+   mytable(t(result))
+}
+toSingleColumn = function(row,elements) {
+  for (t in elements) {
+    if (!is.na(row[t])&&row[t]=='X') return(t)
+  }
+  return(NA)
+}
+answers[,"theme"] <- apply(answers,1,toSingleColumn,elements=thematiques)
+answers[,"assoc"] <- apply(answers,1,toSingleColumn,elements=associations)
+```
+
+Il y a eu `r nbreponses` réponses au total dont `r nbreponsesuniques` uniques après restriction.
+
+## Origine des réponses
+
+### Thématiques CNU 27
+
+```{r echo=FALSE}
+mycheckboxes(answers[1:13])
+```
+
+```{r results='asis', echo=FALSE}
+#par(las=2)
+#barplot(data.matrix(result),beside = TRUE,horiz = TRUE,main = "Thématiques CNU 27",names.arg = titres, cex.names=0.4, )
+```
+
+Nuage de mots des réponses libres
+
+```{r echo=FALSE, message=FALSE}
+mywordcloud(answers[14])
+```
+
+Expérience dans la thématique
+
+```{r echo=FALSE}
+experience = as.data.frame(lapply(answers[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui ont indiqué l'année de leur début
+summary(experience)
+```
+
+### Associations
+
+```{r echo=FALSE}
+mycheckboxes(answers[16:35])
+```
+
+
+```{r results='asis', echo=FALSE}
+# par(las=2)
+# barplot(data.matrix(result2),beside = TRUE,horiz = TRUE,main = "Associations",names.arg = titres2, cex.names=0.8, )
+```
+
+## Medium de publication
+
+### Revue vs Conférence
+
+Votre objectif est de publier vos résultats plutôt en revue ou dans des actes de conférence ?
+
+```{r echo=FALSE}
+mychoices(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
+mydetails(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
+```
+
+### Fréquence des opportunités de publication
+
+Quelle est la fréquence des opportunités de publication en conférence de bonne qualité dans votre domaine ?
+
+```{r echo=FALSE}
+mychoices(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
+mydetails(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
+```
+
+### Version étendue en journal
+
+Est il courant dans votre domaine qu'une publication dans des actes d'une conférence permette un accès à la publication d'une version étendue de l'article dans une revue partenaire ?
+
+```{r echo=FALSE}
+mychoices(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
+mydetails(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
+```
+
+### Durée du processus de publication
+
+En cas de soumission à une revue, quel temps s’écoule-t-il en moyenne entre la première soumission et la publication de l'article ?
+
+```{r echo=FALSE}
+mychoices(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
+mydetails(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
+```
+
+## Politique de publication 
+
+### Ordre des auteurs
+
+```{r echo=FALSE}
+mychoices(answers$L.ordre.des.auteurs.est.il.significatif..)
+mydetails(answers$L.ordre.des.auteurs.est.il.significatif..)
+```
+
+### Sémantique de l'ordre des auteurs
+
+```{r echo=FALSE}
+mytable(na.omit(answers[41]))
+```
+
+### Mesures incitatives
+
+Y a-t'il des canaux de communication privilégiés pour votre laboratoire ? Y a-t'il des règles (de financement des déplacements par exemple) qui influent sur le choix de vos canaux de publication ?
+
+```{r echo=FALSE}
+mychoices(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
+mydetails(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
+```
+
+Expliquez en quelques mots ces mesures
+
+```{r echo=FALSE}
+mytable(na.omit(answers[43]))
+```
+
+### Canaux pour un même résultat
+
+Quels sont les canaux que vous utilisez généralement pour communiquer un même résultat ?
+
+```{r echo=FALSE}
+mycheckboxes(answers[44:47])
+```
+
+### Localisation
+
+Est ce que la localisation d'une conférence ou d'un atelier influe sur votre choix d'y participer (pour des raisons budgétaires par exemple).
+
+```{r echo=FALSE}
+mychoices(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
+mydetails(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
+```
+
+### Classements revues et conférences
+
+Utilisation des classements des revues et conférences
+
+```{r echo=FALSE}
+mycheckboxes(answers[49:53])
+```
+
+### Autres classements
+
+```{r echo=FALSE}
+mytable(na.omit(answers[54]))
+```
+
+### Sélection d'un canal de publication
+
+Quel est votre principal critère dans la sélection d’un canal de publication
+
+```{r echo=FALSE}
+mychoices(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
+mydetails(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
+```
+
+### Choix de la revue
+
+```{r echo=FALSE}
+mytable(na.omit(answers[56]))
+```
+
+## Ressources ouvertes
+
+### Dépôt
+
+Déposez-vous systématiquement vos articles sur arXiv, HAL, etc ?
+
+```{r echo=FALSE}
+mychoices(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
+mydetails(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
+```
+
+### Critère
+
+Privilégiez-vous les revues ou conférences qui mettent à disposition de tous les articles publiés (open access) ?
+
+```{r echo=FALSE}
+mychoices(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
+mydetails(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
+```
+
+## Les publications pour le recrutement, la promotion
+
+### Diffusions locales ou nationales
+
+Prise en compte des diffusions locales ou nationales
+
+```{r echo=FALSE}
+mycheckboxes(answers[59:63])
+```
+
+### Français ou anglais
+
+Les communications dans les conférences nationales sont-elles en français ou en anglais ?
+
+```{r echo=FALSE}
+mychoices(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
+mydetails(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
+```
+
+## Les canaux de communication
+
+### Prestigieux
+
+```{r echo=FALSE, message=FALSE}
+mytable(na.omit(answers[65]))
+```
+
+### Recherchés
+
+```{r echo=FALSE, message=FALSE}
+mytable(na.omit(answers[66]))
+```
+
+
+### Qualité
+
+```{r echo=FALSE, message=FALSE}
+mytable(na.omit(answers[67]))
+```
+
+### Doctorants
+
+```{r echo=FALSE, message=FALSE}
+mytable(na.omit(answers[68]))
+```
+
+### Animation
+
+```{r echo=FALSE, message=FALSE}
+mytable(na.omit(answers[69]))
+```
+
+### Autres
+
+```{r echo=FALSE, message=FALSE}
+mytable(na.omit(answers[70]))
+```
+
+### Remarques complémentaires
+
+```{r echo=FALSE}
+mytable(na.omit(answers[71]))
+```
