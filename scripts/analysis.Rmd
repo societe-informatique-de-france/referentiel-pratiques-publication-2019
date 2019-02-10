@@ -1,3 +1,10 @@
+---
+title: Analyse du questionnaire sur les pratiques de publication en informatique
+author: Le conseil des associations de la SIF
+output: github_document
+always_allow_html: yes
+---
+
 Analyse du questionnaire sur les pratiques de publication en informatique
 ========================================================
 
@@ -67,6 +74,12 @@ mywordcloud = function(t) {
 mychoices = function (t) {as.data.frame(table(t))}
 mydetails = function (v) {mytable(t(with(answers,table(v,answers$theme))))}
 
+mypie = function (t) {
+  df = as.data.frame(table(t))
+  df = df[with(df,order(-Freq)),]
+  barplot(df$Freq,legend = df$t,col=rainbow(nrow(df)))
+}
+
 mycheckboxes = function (x) {
    titres = colnames(x)
    result = as.data.frame(sapply(titres,f,df=x))
@@ -88,7 +101,7 @@ Il y a eu `r nbreponses` réponses au total dont `r nbreponsesuniques` uniques a
 
 ### Thématiques CNU 27
 
-```{r echo=FALSE}
+```{r thematiques, echo=FALSE}
 mycheckboxes(answers[1:13])
 ```
 
@@ -99,20 +112,21 @@ mycheckboxes(answers[1:13])
 
 Nuage de mots des réponses libres
 
-```{r echo=FALSE, message=FALSE}
+```{r wordcloud, echo=FALSE, message=FALSE}
 mywordcloud(answers[14])
 ```
 
 Expérience dans la thématique
 
-```{r echo=FALSE}
+```{r experience, echo=FALSE}
 experience = as.data.frame(lapply(answers[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui ont indiqué l'année de leur début
 summary(experience)
+boxplot(experience)
 ```
 
 ### Associations
 
-```{r echo=FALSE}
+```{r associations, echo=FALSE}
 mycheckboxes(answers[16:35])
 ```
 
@@ -128,45 +142,50 @@ mycheckboxes(answers[16:35])
 
 Votre objectif est de publier vos résultats plutôt en revue ou dans des actes de conférence ?
 
-```{r echo=FALSE}
+```{r revuevsconf, echo=FALSE}
 mychoices(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
 mydetails(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
+mypie(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
 ```
 
 ### Fréquence des opportunités de publication
 
 Quelle est la fréquence des opportunités de publication en conférence de bonne qualité dans votre domaine ?
 
-```{r echo=FALSE}
+```{r frequence, echo=FALSE}
 mychoices(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
 mydetails(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
+mypie(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
 ```
 
 ### Version étendue en journal
 
 Est il courant dans votre domaine qu'une publication dans des actes d'une conférence permette un accès à la publication d'une version étendue de l'article dans une revue partenaire ?
 
-```{r echo=FALSE}
+```{r etendreenjournal, echo=FALSE}
 mychoices(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
 mydetails(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
+mypie(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
 ```
 
 ### Durée du processus de publication
 
 En cas de soumission à une revue, quel temps s’écoule-t-il en moyenne entre la première soumission et la publication de l'article ?
 
-```{r echo=FALSE}
+```{r dureeprocessus, echo=FALSE}
 mychoices(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
 mydetails(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
+mypie(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
 ```
 
 ## Politique de publication 
 
 ### Ordre des auteurs
 
-```{r echo=FALSE}
+```{r ordreauteurs, echo=FALSE}
 mychoices(answers$L.ordre.des.auteurs.est.il.significatif..)
 mydetails(answers$L.ordre.des.auteurs.est.il.significatif..)
+mypie(answers$L.ordre.des.auteurs.est.il.significatif..)
 ```
 
 ### Sémantique de l'ordre des auteurs
@@ -179,9 +198,10 @@ mytable(na.omit(answers[41]))
 
 Y a-t'il des canaux de communication privilégiés pour votre laboratoire ? Y a-t'il des règles (de financement des déplacements par exemple) qui influent sur le choix de vos canaux de publication ?
 
-```{r echo=FALSE}
+```{r mesuresincitatives, echo=FALSE}
 mychoices(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
 mydetails(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
+mypie(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
 ```
 
 Expliquez en quelques mots ces mesures
@@ -194,7 +214,7 @@ mytable(na.omit(answers[43]))
 
 Quels sont les canaux que vous utilisez généralement pour communiquer un même résultat ?
 
-```{r echo=FALSE}
+```{r canauxpourunresultat, echo=FALSE}
 mycheckboxes(answers[44:47])
 ```
 
@@ -202,16 +222,17 @@ mycheckboxes(answers[44:47])
 
 Est ce que la localisation d'une conférence ou d'un atelier influe sur votre choix d'y participer (pour des raisons budgétaires par exemple).
 
-```{r echo=FALSE}
+```{r influencelocalisation, echo=FALSE}
 mychoices(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
 mydetails(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
+mypie(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
 ```
 
 ### Classements revues et conférences
 
 Utilisation des classements des revues et conférences
 
-```{r echo=FALSE}
+```{r classements, echo=FALSE}
 mycheckboxes(answers[49:53])
 ```
 
@@ -225,9 +246,10 @@ mytable(na.omit(answers[54]))
 
 Quel est votre principal critère dans la sélection d’un canal de publication
 
-```{r echo=FALSE}
+```{r criteres, echo=FALSE}
 mychoices(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
 mydetails(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
+mypie(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
 ```
 
 ### Choix de la revue
@@ -242,7 +264,7 @@ mytable(na.omit(answers[56]))
 
 Déposez-vous systématiquement vos articles sur arXiv, HAL, etc ?
 
-```{r echo=FALSE}
+```{r archivesouvertes, echo=FALSE}
 mychoices(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
 mydetails(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
 ```
@@ -251,9 +273,10 @@ mydetails(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..e
 
 Privilégiez-vous les revues ou conférences qui mettent à disposition de tous les articles publiés (open access) ?
 
-```{r echo=FALSE}
+```{r critereoa, echo=FALSE}
 mychoices(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
 mydetails(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
+mypie(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
 ```
 
 ## Les publications pour le recrutement, la promotion
@@ -262,7 +285,7 @@ mydetails(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.di
 
 Prise en compte des diffusions locales ou nationales
 
-```{r echo=FALSE}
+```{r diffusionlocalenationale, echo=FALSE}
 mycheckboxes(answers[59:63])
 ```
 
@@ -270,9 +293,10 @@ mycheckboxes(answers[59:63])
 
 Les communications dans les conférences nationales sont-elles en français ou en anglais ?
 
-```{r echo=FALSE}
+```{r frvsen,echo=FALSE}
 mychoices(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
 mydetails(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
+mypie(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
 ```
 
 ## Les canaux de communication
