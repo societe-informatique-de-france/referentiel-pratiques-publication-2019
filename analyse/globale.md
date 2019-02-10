@@ -63,13 +63,75 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 On note que plusieurs thématiques sont couvertes par plus de 150 réponses (Algorithmique/RO, Informatique Fondamentale et Intelligence Artificielle), ce qui en fait les thématiques les plus représentées parmi les répondants.
 
+> DLB : à comparer avec le paysage national #1
+
 Il était aussi possible de compléter cette nomenclature en indiquant dans un champs texte libre sa thématique de recherche.
 Le nuage de mots suivant résume les informations soumises par ce biais.
 
 ![](figure-gfm/wordcloud-1.png)
 
-Une autre information importante est l'expérience du chercheur dans ce domaine. 
+Une autre information importante est l'expérience du chercheur dans ce domaine.
 
 ![](figure-gfm/experience-1.png)
 
-Avec une expérience médiane de 15 années, les réponses proviennent plutôt de chercheurs confirmés. 
+Avec une expérience médiane de 15 années, les réponses proviennent plutôt de chercheurs confirmés.
+
+> DLB : vérifier si il y a des différences par thématiques #2
+
+## Associations
+
+Le sondage a été diffusé par les associations du conseil des associations de la SIF.
+La table suivante indique pour les réponses obtenues le nombre de réponses à l'appel de chaque association.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+
+<tbody>
+
+<tr><td style="text-align:left;">ACM SIGGRAPH France</td><td style="text-align:right;">1</td></tr>
+
+<tr><td style="text-align:left;">AFIA</td><td style="text-align:right;">11</td></tr>
+
+<tr><td style="text-align:left;">AFIG</td><td style="text-align:right;">47</td></tr>
+
+<tr><td style="text-align:left;">AFIHM</td><td style="text-align:right;">52</td></tr>
+
+<tr><td style="text-align:left;">AFPC</td><td style="text-align:right;">13</td></tr>
+
+<tr><td style="text-align:left;">ARIA</td><td style="text-align:right;">3</td></tr>
+
+<tr><td style="text-align:left;">ASF</td><td style="text-align:right;">25</td></tr>
+
+<tr><td style="text-align:left;">ATALA</td><td style="text-align:right;">13</td></tr>
+
+<tr><td style="text-align:left;">ATIEF</td><td style="text-align:right;">26</td></tr>
+
+<tr><td style="text-align:left;">BDA</td><td style="text-align:right;">4</td></tr>
+
+<tr><td style="text-align:left;">EGC</td><td style="text-align:right;">24</td></tr>
+
+<tr><td style="text-align:left;">GDR IG RV</td><td style="text-align:right;">61</td></tr>
+
+<tr><td style="text-align:left;">GDR IM</td><td style="text-align:right;">127</td></tr>
+
+<tr><td style="text-align:left;">GRCE</td><td style="text-align:right;">9</td></tr>
+
+<tr><td style="text-align:left;">INFORSID</td><td style="text-align:right;">22</td></tr>
+
+<tr><td style="text-align:left;">ROADEF</td><td style="text-align:right;">64</td></tr>
+
+<tr><td style="text-align:left;">SIF</td><td style="text-align:right;">144</td></tr>
+
+<tr><td style="text-align:left;">SPECIF Campus</td><td style="text-align:right;">8</td></tr>
+
+<tr><td style="text-align:left;">SSFAM</td><td style="text-align:right;">17</td></tr>
+
+<tr><td style="text-align:left;">autre</td><td style="text-align:right;">97</td></tr>
+
+</tbody>
+
+</table>
+
+La SIF et le GDR IM sont à l'origine de plus d'un tiers des réponses. Une centaine de réponses
+viennent d'autres associations ou GDR.
+
+Si ces résultats sont cohérents avec la répartition par thématiques pour la RO (ROADEF) et l'informatique fondamentale (GDR IM), on ne retrouve pas le grand nombre de réponses en intelligence artificielle dans l'AFIA ou AFPC.
