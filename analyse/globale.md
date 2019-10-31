@@ -22,11 +22,11 @@ Les scripts ayant servi à l'analyse des réponses sont [disponibles pour inform
 
 # Profil des participants au sondage
 
-Au 10 février 2019, il y a eu 689 réponses au total dont 663 uniques après traitement des réponses pour enlever les doublons, probablements dûs à des envois répétés du même formulaire.
+Au 10 février 2019, il y a eu 689 réponses au total dont 663 uniques après traitement des réponses pour enlever les doublons, probablement dûs à des envois répétés du même formulaire.
 
 ## Thématiques de recherche
 
-Les participants devaient se positionner dans [l'une des 13 catégories de la nomemclature CNU 27](http://cnu27.iut2.upmf-grenoble.fr/Qualifications/Nomenclature-2013.html).
+Les participants devaient se positionner dans [l'une des 13 catégories de la nomenclature CNU 27](http://cnu27.iut2.upmf-grenoble.fr/Qualifications/Nomenclature-2013.html).
 
 <table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
 
@@ -63,7 +63,7 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 On note que plusieurs thématiques sont couvertes par plus de 150 réponses (Algorithmique/RO, Informatique Fondamentale et Intelligence Artificielle), ce qui en fait les thématiques les plus représentées parmi les répondants.
 
-> DLB : à comparer avec le paysage national #1
+Cela est cohérent avec les statistiques des demandes de qualification aux fonctions de [maître de conférences](http://cnu27.iut2.upmf-grenoble.fr/Qualifications/2019/web-stats-mc-site-public-2019.pdf) ou de [professeur des universités](http://cnu27.iut2.upmf-grenoble.fr/Qualifications/2019/web-stats-pr-site-public-2019.pdf) de la section 27 du CNU. La communauté Interaction humain-machine s'est particulièrement mobilisé pour ce questionnaire.
 
 Il était aussi possible de compléter cette nomenclature en indiquant dans un champs texte libre sa thématique de recherche.
 Le nuage de mots suivant résume les informations soumises par ce biais.
