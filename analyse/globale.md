@@ -134,3 +134,321 @@ La SIF et le GDR IM sont à l'origine de plus d'un tiers des réponses. Une cent
 viennent d'autres associations ou GDR.
 
 Si ces résultats sont cohérents avec la répartition par thématiques pour la RO (ROADEF) et l'informatique fondamentale (GDR IM), on ne retrouve pas le grand nombre de réponses en intelligence artificielle dans l'AFIA ou AFPC.
+
+## Medium de publication
+
+On entend souvent dire que les informaticiens publient plutôt dans des actes de conférences que dans des revues,
+que c'est une spécificité de la communauté.
+
+Nous avons posé la question « Votre objectif est de publier vos résultats plutôt en revue ou dans des actes de conférence ? ».
+
+![Revues vs conférences](figure-gsm/revuevsconf-1.png)
+
+La réponse est très claire : la majorité des réponses considère à la fois les revues et les conférences comme objectif de publication. On note cependant des différences de pratiques selon les thématiques.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+dans des actes de conférence
+</th>
+<th style="text-align:right;">
+dans les deux
+</th>
+<th style="text-align:right;">
+en revue
+</th>
+<th style="text-align:right;">
+je ne sais pas
+</th>
+<th style="text-align:right;">
+mes actes de conférences sont publiés par des revues !
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Algorithmique..recherche.opérationnelle
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+78
+</td>
+<td style="text-align:right;">
+68
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Architecture.des.machines
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bioinformatique
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Génie.logiciel.et.programmation
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Images.et.géométrie..scènes..parole..signaux
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique.fondamentale
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique.industrielle
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Intelligence.Artificielle
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interaction.humain.machine
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.naturels.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Réseaux
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes.d.information
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+54
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes.informatiques
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+
+En Algorithmique et Recherche Opérationnelle, l'objectif de publication en revue est plus important que dans les autres disciplines. En Images et géométrie, scènes, parole, signaux on note un nombre significatif de réponses indiquant que les actes de conférences sont publiés par des revues.
+
+## Fréquence des opportunités de publication dans des conférences de bonne qualité
+
+On a vu le nombre de conférences augmenter significativement durant ces deux dernières décennies, notamment du fait de la dématérialisation des soumissions et du travail du comité de programme.
+Par conséquent, dans toutes les thématiques, il est possible de trouver une ou plusieurs conférences de qualité à laquelle soumettre son travail dans l'année.
+
+![Fréquence des opportunités de publication dans des conférences de qualité](frequence-1.png)
+
+## Version étendue dans une revue partenaire
+
+A la question « Est il courant dans votre domaine qu’une publication dans des actes d’une conférence permette un accès à la publication d’une version étendue de l’article dans une revue partenaire ? », la majorité répond par l'affirmative.
+
+![Version étendue dans une revue partenaire](etendreenjournal-1.png)
+
+On note cependant qu'en Intelligence Artificielle et en Interaction Humain Machine, cette pratique ne semble 
+pas systématique (il y a presque autant de réponses négatives que positives dans ces thématiques).
+
+
+
