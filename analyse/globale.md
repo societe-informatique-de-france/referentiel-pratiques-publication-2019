@@ -142,7 +142,7 @@ que c'est une spécificité de la communauté.
 
 Nous avons posé la question « Votre objectif est de publier vos résultats plutôt en revue ou dans des actes de conférence ? ».
 
-![Revues vs conférences](figure-gsm/revuevsconf-1.png)
+![Revues vs conférences](figure-gfm/revuevsconf-1.png)
 
 La réponse est très claire : la majorité des réponses considère à la fois les revues et les conférences comme objectif de publication. On note cependant des différences de pratiques selon les thématiques.
 
@@ -439,13 +439,13 @@ En Algorithmique et Recherche Opérationnelle, l'objectif de publication en revu
 On a vu le nombre de conférences augmenter significativement durant ces deux dernières décennies, notamment du fait de la dématérialisation des soumissions et du travail du comité de programme.
 Par conséquent, dans toutes les thématiques, il est possible de trouver une ou plusieurs conférences de qualité à laquelle soumettre son travail dans l'année.
 
-![Fréquence des opportunités de publication dans des conférences de qualité](frequence-1.png)
+![Fréquence des opportunités de publication dans des conférences de qualité](figure-gfm/frequence-1.png)
 
 ## Version étendue dans une revue partenaire
 
 A la question « Est il courant dans votre domaine qu’une publication dans des actes d’une conférence permette un accès à la publication d’une version étendue de l’article dans une revue partenaire ? », la majorité répond par l'affirmative.
 
-![Version étendue dans une revue partenaire](etendreenjournal-1.png)
+![Version étendue dans une revue partenaire](figure-gfm/etendreenjournal-1.png)
 
 On note cependant qu'en Intelligence Artificielle et en Interaction Humain Machine, cette pratique ne semble 
 pas systématique (il y a presque autant de réponses négatives que positives dans ces thématiques).
