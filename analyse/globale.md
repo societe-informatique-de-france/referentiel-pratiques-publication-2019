@@ -34,9 +34,9 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 <tr><td style="text-align:left;">Systèmes d'information</td><td style="text-align:right;">83</td></tr>
 
-<tr style="font-weight: bold;"><td style="text-align:left;">Algorithmique, recherche opérationnelle</td><td style="text-align:right;">166</td></tr>
+<tr><td style="text-align:left;"><strong>Algorithmique, recherche opérationnelle</strong></td><td style="text-align:right;"><strong>166</strong></td></tr>
 
-<tr style="font-weight: bold;"><td style="text-align:left;">Informatique fondamentale</td><td style="text-align:right;">152</td></tr>
+<tr><td style="text-align:left;"><strong>Informatique fondamentale</strong></td><td style="text-align:right;"><strong>152</strong></td></tr>
 
 <tr><td style="text-align:left;">Réseaux</td><td style="text-align:right;">40</td></tr>
 
@@ -46,11 +46,11 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 <tr><td style="text-align:left;">Génie logiciel et programmation</td><td style="text-align:right;">76</td></tr>
 
-<tr style="font-weight: bold;"><td style="text-align:left;">Intelligence Artificielle</td><td style="text-align:right;">155</td></tr>
+<tr><td style="text-align:left;"><strong>Intelligence Artificielle</strong></td><td style="text-align:right;"><strong>155</strong></td></tr>
 
 <tr><td style="text-align:left;">Images et géométrie, scènes, parole, signaux</td><td style="text-align:right;">92</td></tr>
 
-<tr style="font-weight: bold;"><td style="text-align:left;">Interaction humain machine)</td><td style="text-align:right;">112</td></tr>
+<tr><td style="text-align:left;"><strong>Interaction humain machine</strong></td><td style="text-align:right;"><strong>112</strong></td></tr>
 
 <tr><td style="text-align:left;">Architecture des machines</td><td style="text-align:right;">16</td></tr>
 
@@ -110,7 +110,7 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">GDR IG RV</td><td style="text-align:right;">61</td></tr>
 
-<tr style="font-weight: bold;"><td style="text-align:left;">GDR IM</td><td style="text-align:right;">127</td></tr>
+<tr><td style="text-align:left;"><strong>GDR IM</strong></td><td style="text-align:right;"><strong>127</strong></td></tr>
 
 <tr><td style="text-align:left;">GRCE</td><td style="text-align:right;">9</td></tr>
 
@@ -118,7 +118,7 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">ROADEF</td><td style="text-align:right;">64</td></tr>
 
-<tr style="font-weight: bold;"><td style="text-align:left;">SIF</td><td style="text-align:right;">144</td></tr>
+<tr><td style="text-align:left;"><strong>SIF</strong></td><td style="text-align:right;"><strong>144</strong></td></tr>
 
 <tr><td style="text-align:left;">SPECIF Campus</td><td style="text-align:right;">8</td></tr>
 
@@ -169,18 +169,18 @@ mes actes de conférences sont publiés par des revues !
 </tr>
 </thead>
 <tbody>
-<tr style="font-weight: bold;">
+<tr>
 <td style="text-align:left;">
-Algorithmique..recherche.opérationnelle
+<strong>Algorithmique,recherche opérationnelle</strong>
 </td>
 <td style="text-align:right;">
 10
 </td>
 <td style="text-align:right;">
-78
+<strong>78</strong>
 </td>
 <td style="text-align:right;">
-68
+<strong>68</strong>
 </td>
 <td style="text-align:right;">
 2
@@ -191,7 +191,7 @@ Algorithmique..recherche.opérationnelle
 </tr>
 <tr>
 <td style="text-align:left;">
-Architecture.des.machines
+Architecture des machines
 </td>
 <td style="text-align:right;">
 0
@@ -231,7 +231,7 @@ Bioinformatique
 </tr>
 <tr>
 <td style="text-align:left;">
-Génie.logiciel.et.programmation
+Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
 3
@@ -249,9 +249,9 @@ Génie.logiciel.et.programmation
 2
 </td>
 </tr>
-<tr style="font-weight: bold;">
+<tr>
 <td style="text-align:left;">
-Images.et.géométrie..scènes..parole..signaux
+<strong>Images et géométrie,scènes, parole, signaux</strong>
 </td>
 <td style="text-align:right;">
 3
@@ -266,12 +266,12 @@ Images.et.géométrie..scènes..parole..signaux
 0
 </td>
 <td style="text-align:right;">
-19
+<strong>19</strong>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Informatique.fondamentale
+Informatique fondamentale
 </td>
 <td style="text-align:right;">
 20
@@ -291,7 +291,7 @@ Informatique.fondamentale
 </tr>
 <tr>
 <td style="text-align:left;">
-Informatique.industrielle
+Informatique industrielle
 </td>
 <td style="text-align:right;">
 0
@@ -311,7 +311,7 @@ Informatique.industrielle
 </tr>
 <tr>
 <td style="text-align:left;">
-Intelligence.Artificielle
+Intelligence Artificielle
 </td>
 <td style="text-align:right;">
 28
@@ -331,7 +331,7 @@ Intelligence.Artificielle
 </tr>
 <tr>
 <td style="text-align:left;">
-Interaction.humain.machine
+Interaction humain machine
 </td>
 <td style="text-align:right;">
 22
@@ -351,7 +351,7 @@ Interaction.humain.machine
 </tr>
 <tr>
 <td style="text-align:left;">
-Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.naturels.
+Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
 </td>
 <td style="text-align:right;">
 0
@@ -391,7 +391,7 @@ Réseaux
 </tr>
 <tr>
 <td style="text-align:left;">
-Systèmes.d.information
+Systèmes d'information
 </td>
 <td style="text-align:right;">
 17
@@ -411,7 +411,7 @@ Systèmes.d.information
 </tr>
 <tr>
 <td style="text-align:left;">
-Systèmes.informatiques
+Systèmes informatiques
 </td>
 <td style="text-align:right;">
 14
@@ -469,7 +469,7 @@ oui
 <tbody>
 <tr>
 <td style="text-align:left;">
-Algorithmique..recherche.opérationnelle
+Algorithmique, recherche opérationnelle
 </td>
 <td style="text-align:right;">
 12
@@ -483,7 +483,7 @@ Algorithmique..recherche.opérationnelle
 </tr>
 <tr>
 <td style="text-align:left;">
-Architecture.des.machines
+Architecture des machines
 </td>
 <td style="text-align:right;">
 0
@@ -511,7 +511,7 @@ Bioinformatique
 </tr>
 <tr>
 <td style="text-align:left;">
-Génie.logiciel.et.programmation
+Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
 2
@@ -525,7 +525,7 @@ Génie.logiciel.et.programmation
 </tr>
 <tr>
 <td style="text-align:left;">
-Images.et.géométrie..scènes..parole..signaux
+Images et géométrie, scènes, parole, signaux
 </td>
 <td style="text-align:right;">
 2
@@ -539,7 +539,7 @@ Images.et.géométrie..scènes..parole..signaux
 </tr>
 <tr>
 <td style="text-align:left;">
-Informatique.fondamentale
+Informatique fondamentale
 </td>
 <td style="text-align:right;">
 8
@@ -553,7 +553,7 @@ Informatique.fondamentale
 </tr>
 <tr>
 <td style="text-align:left;">
-Informatique.industrielle
+Informatique industrielle
 </td>
 <td style="text-align:right;">
 0
@@ -565,37 +565,37 @@ Informatique.industrielle
 0
 </td>
 </tr>
-<tr style="font-weight: bold;">
+<tr>
 <td style="text-align:left;">
-Intelligence.Artificielle
+<strong>Intelligence Artificielle</strong>
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-43
+<strong>43</strong>
 </td>
 <td style="text-align:right;">
-47
+<strong>47</strong>
 </td>
 </tr>
-<tr style="font-weight: bold;">
+<tr>
 <td style="text-align:left;">
-Interaction.humain.machine
+<strong>Interaction humain machine</strong>
 </td>
 <td style="text-align:right;">
 5
 </td>
 <td style="text-align:right;">
-33
+<strong>33</strong>
 </td>
 <td style="text-align:right;">
-36
+<strong>36</strong>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.naturels.
+Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
 </td>
 <td style="text-align:right;">
 1
@@ -623,7 +623,7 @@ Réseaux
 </tr>
 <tr>
 <td style="text-align:left;">
-Systèmes.d.information
+Systèmes d'information
 </td>
 <td style="text-align:right;">
 5
@@ -637,7 +637,7 @@ Systèmes.d.information
 </tr>
 <tr>
 <td style="text-align:left;">
-Systèmes.informatiques
+Systèmes informatiques
 </td>
 <td style="text-align:right;">
 1
