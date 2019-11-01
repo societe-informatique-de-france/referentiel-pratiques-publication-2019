@@ -135,7 +135,9 @@ viennent d'autres associations ou GDR.
 
 Si ces résultats sont cohérents avec la répartition par thématiques pour la RO (ROADEF) et l'informatique fondamentale (GDR IM), on ne retrouve pas le grand nombre de réponses en intelligence artificielle dans l'AFIA ou AFPC.
 
-## Medium de publication
+# Medium de publication
+
+## Revue vs conférence
 
 On entend souvent dire que les informaticiens publient plutôt dans des actes de conférences que dans des revues,
 que c'est une spécificité de la communauté.
@@ -652,4 +654,306 @@ Systèmes informatiques
 </tbody>
 </table>
 
+## Durée du processus de publication en revue
 
+Un des arguments pour la publication dans des actes de conférences est la rapidité du processus de publication : il se déroule généralement entre 6 et 9 mois entre la soumission d'un article et sa présentation à la conférence en cas d'acceptation.
+
+Nous avons demandé quel était généralement la durée observée pour la publication d'un article dans une revue.
+
+![Version étendue dans une revue partenaire](figure-gfm/dureeprocessus-1.png)
+
+Dans l'ensemble, la durée du processus de publication dans une revue est d'un à deux ans. Il ne semble pas y avoir de corrélation entre la durée de publication et le choix de publier en revue.
+
+En effet, une communauté comme la recherche opérationnelle qui publie beaucoup en revue a une durée du processus de publication de un à deux ans.
+Par contre, des thématiques comme l'intelligence artificielle et l'interaction humain machine qui ont une pratique de publication en conférences importante ont aussi des durées de publication en revue comparables à ceux d'une conférence.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+encore moins que cela
+</th>
+<th style="text-align:right;">
+entre 6 mois et un an
+</th>
+<th style="text-align:right;">
+entre un et deux ans
+</th>
+<th style="text-align:right;">
+je ne sais pas
+</th>
+<th style="text-align:right;">
+moins de 6 mois
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<strong>Algorithmique, recherche opérationnelle</strong>
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+<strong>113</strong>
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Architecture des machines
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bioinformatique
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Génie logiciel et programmation
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Images et géométrie, scènes, parole, signaux</strong>
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+<strong>42</strong>
+</td>
+<td style="text-align:right;">
+<strong>17</strong>
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique fondamentale
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique industrielle
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Intelligence Artificielle</strong>
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+<strong>52</strong>
+</td>
+<td style="text-align:right;">
+<strong>33</strong>
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Interaction humain machine</strong>
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+<strong>39</strong>
+</td>
+<td style="text-align:right;">
+<strong>24</strong>
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Réseaux
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes d'information
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes informatiques
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+</tbody>
+</table>
+
+> Hypothèse : l'existence d'une pratique de publication en conférences importante a poussé les revues à réduire leurs délais de publication pour rester attractives.
+
+Concernant le cas de la thématique Image,
+le délai réduit pour la publication en revue est sans doute une conséquence de la publication d'actes de conférences en revue.
