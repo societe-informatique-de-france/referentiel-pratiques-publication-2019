@@ -34,9 +34,9 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 <tr><td style="text-align:left;">Systèmes d'information</td><td style="text-align:right;">83</td></tr>
 
-<tr><td style="text-align:left;">Algorithmique, recherche opérationnelle</td><td style="text-align:right;">166</td></tr>
+<tr style="font-weight: bold;"><td style="text-align:left;">Algorithmique, recherche opérationnelle</td><td style="text-align:right;">166</td></tr>
 
-<tr><td style="text-align:left;">Informatique fondamentale</td><td style="text-align:right;">152</td></tr>
+<tr style="font-weight: bold;"><td style="text-align:left;">Informatique fondamentale</td><td style="text-align:right;">152</td></tr>
 
 <tr><td style="text-align:left;">Réseaux</td><td style="text-align:right;">40</td></tr>
 
@@ -46,11 +46,11 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 <tr><td style="text-align:left;">Génie logiciel et programmation</td><td style="text-align:right;">76</td></tr>
 
-<tr><td style="text-align:left;">Intelligence Artificielle</td><td style="text-align:right;">155</td></tr>
+<tr style="font-weight: bold;"><td style="text-align:left;">Intelligence Artificielle</td><td style="text-align:right;">155</td></tr>
 
 <tr><td style="text-align:left;">Images et géométrie, scènes, parole, signaux</td><td style="text-align:right;">92</td></tr>
 
-<tr><td style="text-align:left;">Interaction humain machine)</td><td style="text-align:right;">112</td></tr>
+<tr style="font-weight: bold;"><td style="text-align:left;">Interaction humain machine)</td><td style="text-align:right;">112</td></tr>
 
 <tr><td style="text-align:left;">Architecture des machines</td><td style="text-align:right;">16</td></tr>
 
@@ -110,7 +110,7 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">GDR IG RV</td><td style="text-align:right;">61</td></tr>
 
-<tr><td style="text-align:left;">GDR IM</td><td style="text-align:right;">127</td></tr>
+<tr style="font-weight: bold;"><td style="text-align:left;">GDR IM</td><td style="text-align:right;">127</td></tr>
 
 <tr><td style="text-align:left;">GRCE</td><td style="text-align:right;">9</td></tr>
 
@@ -118,7 +118,7 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">ROADEF</td><td style="text-align:right;">64</td></tr>
 
-<tr><td style="text-align:left;">SIF</td><td style="text-align:right;">144</td></tr>
+<tr style="font-weight: bold;"><td style="text-align:left;">SIF</td><td style="text-align:right;">144</td></tr>
 
 <tr><td style="text-align:left;">SPECIF Campus</td><td style="text-align:right;">8</td></tr>
 
@@ -169,7 +169,7 @@ mes actes de conférences sont publiés par des revues !
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr style="font-weight: bold;">
 <td style="text-align:left;">
 Algorithmique..recherche.opérationnelle
 </td>
@@ -249,7 +249,7 @@ Génie.logiciel.et.programmation
 2
 </td>
 </tr>
-<tr>
+<tr style="font-weight: bold;">
 <td style="text-align:left;">
 Images.et.géométrie..scènes..parole..signaux
 </td>
@@ -565,7 +565,7 @@ Informatique.industrielle
 0
 </td>
 </tr>
-<tr>
+<tr style="font-weight: bold;">
 <td style="text-align:left;">
 Intelligence.Artificielle
 </td>
@@ -579,7 +579,7 @@ Intelligence.Artificielle
 47
 </td>
 </tr>
-<tr>
+<tr style="font-weight: bold;">
 <td style="text-align:left;">
 Interaction.humain.machine
 </td>
