@@ -957,3 +957,267 @@ Systèmes informatiques
 
 Concernant le cas de la thématique Image,
 le délai réduit pour la publication en revue est sans doute une conséquence de la publication d'actes de conférences en revue.
+
+# Politique de publication
+
+## Ordre des auteurs
+
+La sémantique de l'ordre des auteurs varie selon les communautés.
+Dans les pays anglo-saxons, la notion de premier auteur est importante.
+Si celui-ci est étudiant, il peut concourir aux prix du meilleur papier étudiant par exemple.
+
+Dans l'ensemble, l'ordre des auteurs est important.
+
+![Sémantique de l'ordre des auteurs](figure-gfm/ordreauteurs-1.png)
+
+Cependant, la sémantique varie : le premier auteur peut être le doctorant, postdoctorant ou le principal contributeur, le dernier auteur peut être le directeur de thèse, le responsable du financement. Globalement, l'ordre des auteurs révèle dans ce cadre une contribution décroissante au travail, avec des interprétations diverses pour le dernier auteur.
+
+Il est intéressant de noter que les pratiques divergent selon les thématiques.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+ça dépend (expliquer ci-dessous)
+</th>
+<th style="text-align:right;">
+je ne sais pas
+</th>
+<th style="text-align:right;">
+non (ordre alphabétique par ex.)
+</th>
+<th style="text-align:right;">
+oui (expliquer ci-dessous)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<strong>Algorithmique, recherche opérationnelle</strong>
+</td>
+<td style="text-align:right;">
+<strong>32</strong>
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+<strong>84</strong>
+</td>
+<td style="text-align:right;">
+36
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Architecture des machines
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bioinformatique
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Génie logiciel et programmation
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+<strong>14</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Images et géométrie,scènes, parole, signaux
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+<strong>54</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Informatique fondamentale</strong>
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+<strong>76</strong>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique industrielle
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Intelligence Artificielle
+</td>
+<td style="text-align:right;">
+<strong>26</strong>
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+<strong>55</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interaction humain machine
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+<strong>61</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation simulation pour les systèmes complexes,  systèmes artificiels et naturels
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Réseaux
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+<strong>21</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes d'information
+</td>
+<td style="text-align:right;">
+<strong>27</strong>
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+<strong>40</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes informatiques
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+<strong>22</strong>
+</td>
+</tr>
+</tbody>
+</table>
+
+En informatique fondamentale, l'ordre alphabétique semble le plus couramment utilisé. C'est aussi le cas en Algorithmique et recherche opérationnelle, même si l'on note un fort nombre de réponses indiquant que la pratique peut varier selon les situations et un nombre équivalent de réponses indiquant que l'ordre est important.
+
+Dans les autres cas, la sémantique est importante. On note cependant que pour l'Intelligence Artificielle et les Systèmes d'information, la pratique est moins tranchée.
