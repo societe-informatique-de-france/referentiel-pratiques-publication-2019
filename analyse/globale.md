@@ -972,6 +972,8 @@ Dans l'ensemble, l'ordre des auteurs est important.
 
 Cependant, la sémantique varie : le premier auteur peut être le doctorant, postdoctorant ou le principal contributeur, le dernier auteur peut être le directeur de thèse, le responsable du financement. Globalement, l'ordre des auteurs révèle dans ce cadre une contribution décroissante au travail, avec des interprétations diverses pour le dernier auteur.
 
+On note dans les réponses ouvertes que la notion de premier auteur correspond aussi à la personne qui a effectué un travail d'implémentation ou d'expérimentation important.
+
 Il est intéressant de noter que les pratiques divergent selon les thématiques.
 
 <table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
@@ -1221,3 +1223,92 @@ Systèmes informatiques
 En informatique fondamentale, l'ordre alphabétique semble le plus couramment utilisé. C'est aussi le cas en Algorithmique et recherche opérationnelle, même si l'on note un fort nombre de réponses indiquant que la pratique peut varier selon les situations et un nombre équivalent de réponses indiquant que l'ordre est important.
 
 Dans les autres cas, la sémantique est importante. On note cependant que pour l'Intelligence Artificielle et les Systèmes d'information, la pratique est moins tranchée.
+
+## Politique de publication du laboratoire
+
+L'une des questions qui se pose est à quel point l'environnement influe sur la pratique de publication.
+L'environnement le plus proche du chercheur est son laboratoire. Dans de nombreux gros laboratoires, l'environnement proche est l'équipe de recherche, qui dispose de son propre budget.
+
+La question posée est :
+
+« Y a-t’il des canaux de communication privilégiés pour votre laboratoire ? Y a-t’il des règles (de financement des déplacements par exemple) qui influent sur le choix de vos canaux de publication ? »
+
+La réponse est globalement négative, et semble partagée par toutes les thématiques.
+
+![Mesures incitatives du laboratoire](figure-gfm/mesuresincitatives-1.png)
+
+Dans les réponses ouvertes, on note que certains laboratoires
+sont en faveur des journaux car plus prestigieux et coûtent moins chers en mission,
+d'autres financent uniquement les déplacements pour les conférences les plus
+sélectives. Pour de nombreux répondants, la participation à des conférences
+dépend avant tout des financements obtenus. On note aussi souvent des efforts pour
+permettre aux doctorants de présenter leurs travaux. Dans certains cas,
+le type et le nombre de publications a un impact direct sur la dotation de fonctionnement,
+voire permet d'obtenir une prime.
+
+Une information qui ressort aussi des réponses ouvertes est l'usage « répressif » de la bibliométrie
+dans certains laboratoires. On note par exemple l'exclusion du laboratoire ou le passage de membre à membre associé si le nombre de publications internationales n'est pas suffisant.
+
+A l'heure ou les principaux organismes de recherche ont ratifié [Declaration on Research Assessment, DORA](https://sfdora.org),
+il faut espérer que la logique purement comptable des publications dans certains labos change.
+
+## Influence de la localisation
+
+Sans grande surprise, on note que la localisation d'une conférence ou d'un atelier influence 
+la décision d'y participer.
+
+![Mesures incitatives du laboratoire](figure-gfm/influencelocalisation-1.png)
+
+## Canaux utilisés pour communiquer un même résultat
+
+Un résultat peu être présenter de manière préliminaire à un atelier, afin d'obtenir 
+un premier retour de ses pairs, et permettre ainsi de consolider les résultats pour 
+une publication dans une conférence. Les retours de la présentation de ce travail, 
+avec des travaux annexes, peuvent servir de base à une version longue qui sera publiée en revue.
+
+De nos jours, il existe aussi la possibilité de déposer un article sur une archive ouverte pour obtenir un premier retour.
+
+Nous avons demandé quels étaient les canaux utilisés pour communiquer un même résultat (sous entendu à divers niveau de maturité).
+
+Les ateliers sont peu utilisés pour présenter un résultat. Les conférences sont les
+canaux privilégiés par rapport aux revues. L'utilisation des archives ouvertes semble important.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+arXiv, HAL, rapport de recherche, rapport de labo
+</td>
+<td style="text-align:right;">
+401
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+atelier
+</td>
+<td style="text-align:right;">
+157
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+conférence
+</td>
+<td style="text-align:right;">
+543
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+revue
+</td>
+<td style="text-align:right;">
+410
+</td>
+</tr>
+</tbody>
+</table>
+
+> trouver un moyen de calculer les réponses par thématique
+
