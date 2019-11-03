@@ -11,6 +11,7 @@ informatique de France à partir des réponses à un sondage
 qui a eu lieu entre octobre 2018 et février 2019.
 
 Ce sondage a été élaboré par le conseil des associations des la SIF, suite à des discussions sur la diversité des pratiques de publication au sein même de la discipline informatique.
+Les résultats bruts du sondage ont été rendus publics [en mai 2019 par la SIF](https://www.societe-informatique-de-france.fr/2019/05/referentiel-des-publications-en-informatique/).
 
 Le référentiel a pour but de rendre publique des pratiques de publications connues des communautés thématiques mais pas forcément de l'ensemble de la communauté informatique.
 
@@ -22,7 +23,7 @@ Les scripts ayant servi à l'analyse des réponses sont [disponibles pour inform
 
 # Profil des participants au sondage
 
-Au 10 février 2019, il y a eu 689 réponses au total dont 663 uniques après traitement des réponses pour enlever les doublons, probablement dûs à des envois répétés du même formulaire.
+Au 25 mars 2019, il y a eu 698 réponses au total dont 671 uniques après traitement des réponses pour enlever les doublons, probablement dûs à des envois répétés du même formulaire.
 
 ## Thématiques de recherche
 
@@ -32,7 +33,7 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 <tbody>
 
-<tr><td style="text-align:left;">Systèmes d'information</td><td style="text-align:right;">83</td></tr>
+<tr><td style="text-align:left;">Systèmes d'information</td><td style="text-align:right;">88</td></tr>
 
 <tr><td style="text-align:left;"><strong>Algorithmique, recherche opérationnelle</strong></td><td style="text-align:right;"><strong>166</strong></td></tr>
 
@@ -46,11 +47,11 @@ Les participants devaient se positionner dans [l'une des 13 catégories de la no
 
 <tr><td style="text-align:left;">Génie logiciel et programmation</td><td style="text-align:right;">76</td></tr>
 
-<tr><td style="text-align:left;"><strong>Intelligence Artificielle</strong></td><td style="text-align:right;"><strong>155</strong></td></tr>
+<tr><td style="text-align:left;"><strong>Intelligence Artificielle</strong></td><td style="text-align:right;"><strong>156</strong></td></tr>
 
 <tr><td style="text-align:left;">Images et géométrie, scènes, parole, signaux</td><td style="text-align:right;">92</td></tr>
 
-<tr><td style="text-align:left;"><strong>Interaction humain machine</strong></td><td style="text-align:right;"><strong>112</strong></td></tr>
+<tr><td style="text-align:left;"><strong>Interaction humain machine</strong></td><td style="text-align:right;"><strong>114</strong></td></tr>
 
 <tr><td style="text-align:left;">Architecture des machines</td><td style="text-align:right;">16</td></tr>
 
@@ -92,7 +93,7 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">AFIG</td><td style="text-align:right;">47</td></tr>
 
-<tr><td style="text-align:left;">AFIHM</td><td style="text-align:right;">52</td></tr>
+<tr><td style="text-align:left;">AFIHM</td><td style="text-align:right;">53</td></tr>
 
 <tr><td style="text-align:left;">AFPC</td><td style="text-align:right;">13</td></tr>
 
@@ -102,19 +103,19 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">ATALA</td><td style="text-align:right;">13</td></tr>
 
-<tr><td style="text-align:left;">ATIEF</td><td style="text-align:right;">26</td></tr>
+<tr><td style="text-align:left;">ATIEF</td><td style="text-align:right;">27</td></tr>
 
 <tr><td style="text-align:left;">BDA</td><td style="text-align:right;">4</td></tr>
 
 <tr><td style="text-align:left;">EGC</td><td style="text-align:right;">24</td></tr>
 
-<tr><td style="text-align:left;">GDR IG RV</td><td style="text-align:right;">61</td></tr>
+<tr><td style="text-align:left;">GDR IG RV</td><td style="text-align:right;">62</td></tr>
 
 <tr><td style="text-align:left;"><strong>GDR IM</strong></td><td style="text-align:right;"><strong>127</strong></td></tr>
 
 <tr><td style="text-align:left;">GRCE</td><td style="text-align:right;">9</td></tr>
 
-<tr><td style="text-align:left;">INFORSID</td><td style="text-align:right;">22</td></tr>
+<tr><td style="text-align:left;">INFORSID</td><td style="text-align:right;">26</td></tr>
 
 <tr><td style="text-align:left;">ROADEF</td><td style="text-align:right;">64</td></tr>
 
@@ -122,9 +123,9 @@ La table suivante indique pour les réponses obtenues le nombre de réponses à 
 
 <tr><td style="text-align:left;">SPECIF Campus</td><td style="text-align:right;">8</td></tr>
 
-<tr><td style="text-align:left;">SSFAM</td><td style="text-align:right;">17</td></tr>
+<tr><td style="text-align:left;">SSFAM</td><td style="text-align:right;">18</td></tr>
 
-<tr><td style="text-align:left;">autre</td><td style="text-align:right;">97</td></tr>
+<tr><td style="text-align:left;">autre</td><td style="text-align:right;">98</td></tr>
 
 </tbody>
 
