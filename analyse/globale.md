@@ -1312,3 +1312,673 @@ revue
 
 > trouver un moyen de calculer les réponses par thématique
 
+## Classement des revues et des conférences
+
+Un point sensible est quel critère utiliser pour qualifier une conférence ou une revue
+de majeure par rapport aux autres.
+
+Généralement, les « bonnes » conférences et revues sont parfaitement connues dans leur communauté.
+C'est souvent moins le cas en dehors de cette communauté. D'où l'apparition de classements pour 
+les conférences et les revues. Parmi les plus connues en informatique, on trouve CORE (Australien), Scimago (collaboration avec Elsevier),
+Scopus ou Web of Science, Google scholar.
+
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="http://www.core.edu.au/conference-portal">CORE</a>
+</td>
+<td style="text-align:right;">
+334
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="http://www.scimagojr.com">Scimago</a>
+</td>
+<td style="text-align:right;">
+116
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="http://www.scopus.com/">Scopus</a> ou équivalent, <a href="https://clarivate.com/webofsciencegroup/solutions/journal-citation-reports/">Thomson Reuters</a>
+</td>
+<td style="text-align:right;">
+115
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://scholar.google.fr/citations?view_op=top_venues&hl=fr">Google scholar</a>
+</td>
+<td style="text-align:right;">
+171
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Autre
+</td>
+<td style="text-align:right;">
+77
+</td>
+</tr>
+</tbody>
+</table>
+
+Globalement, c'est le classement CORE qui est le plus utilisé.
+
+On note dans de nombreuses réponses ouvertes un désaccord de principe sur la notion de classement des conférences et des journaux.
+
+Un autre point intéressant dans les réponses ouvertes est l'utilisation de classements élaborés au niveau des GDR, comme ceux de SOC2 par exemple ([conférences](http://www.gdr-soc.cnrs.fr/conferences/), [revues](http://www.gdr-soc.cnrs.fr/les-revues-tableaux/)), ou des associations, comme [l'ATIEF](http://atief.fr/ressources/classement).
+
+On y aussi d'autres classements ou moyens d'évaluation des canaux :
+
++ l'agrégateur de classements [ConfenceRank](http://www.conferenceranks.com/) est très souvent cité ;
++ le site [DBLP](https://dblp1.uni-trier.de/) est mentionné pour savoir si la revue ou conférence est indexée ;
++ un [classement australien](http://www.austms.org.au/Rankings/AustMS_final_ranked.html) et un [classement espagnol](http://gii-grin-scie-rating.scie.es) sont aussi cités.
+
+## Principal critère de sélection des canaux
+
+Comment sélectionne t'on un canal de publication ?
+
+Pour cette question, une communauté est un ensemble de chercheurs qui ont l'habitude de se retrouver
+dans des ateliers ou des conférences très spécifiques, autour d'une problématique.
+
+![Mesures incitatives du laboratoire](figure-gfm/criteres-1.png)
+
+Pour la majorité des répondants, il s'agit avant tout de la renommée du canal au sein de la communauté.
+Le canal peut être a portée très large, avoir une renommée différente selon la thématique ou les communautés.
+Les deux autres critères qui interviennent ensuite sont sa communauté (les lecteurs potentiels) et sa thématique (les sujets traités).
+
+Les réponses ouvertes indiquent bien que le choix du canal de publication est avant tout un équilibre entre
+le public que l'on souhaite toucher, sa propre communauté scientifique et la renommée de ce canal.
+La portée du résultat entre aussi en compte : un résultat a portée plus large
+permet de choisir un canal à plus large public (avec une renommée souvent plus importante). Une revue qui aurait déjà traité
+de la même problématique est aussi privilégiée.
+
+Le choix des revues apparait aussi en lien avec les conférences du domaine : les travaux présentés dans certaines conférences
+sont naturellement publiés dans certaines revues. On note à ce propos des remarques sur la préférence de présenter son travail 
+à des conférences spécialisées (souvent moins renommées) que des conférences « généralistes » pour interagir avec plus de 
+chercheurs de sa communauté. Cela a donc un impact indirect sur le choix de la revue.
+
+On note aussi que la composition du comité éditorial entre en compte dans le choix d'une revue, ainsi que le temps du processus de relecture.
+
+# Ressources ouvertes
+
+Depuis [la loi sur la république numérique](https://www.economie.gouv.fr/republique-numerique), il est possible pour tout chercheur de déposer ses articles 
+sur une archive ouverte, indépendemment des contrats signés avec les éditeurs.
+La [plan national pour la science ouverte](https://www.ouvrirlascience.fr/plan-national-pour-la-science-ouverte/) rend obligatoire l'accès ouvert aux publications et aux données des projets financés sur fonds publics.
+
+Quelles sont les pratiques en la matière en informatique ?
+
+## Archivage ouvert
+
+Il est possible de déposer son travail à plusieurs niveau de maturité dans une archive ouverte type HAL ou arXiv (on parle de *green open access*) :
+
++ dès que le résultat est obtenu : cela permet de diffuser sans attendre un résultat, mais aussi d'avoir un retour des lecteurs ;
++ dès que le papier est soumis pour évaluation : cela permet généralement de dater le travail ;
++ une fois que le papier est accepté : pour répondre par exemple au cadre du plan national de la science ouverte .
+
+Ce dépôt peut être moins systématique (« quand j'y pense ») ou complètement absent de la pratique de publication.
+
+Les résultats globaux montrent que la tendance générale est de déposer ses
+publications dans un archive ouverte une fois l'article accepté.
+
+![Dépôt des articles dans des archives ouvertes](figure-gfm/archivesouvertes-1.png)
+
+On note cependant des différences de pratiques dans certaines communautés.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+au moment de la soumission
+</th>
+<th style="text-align:right;">
+avant la soumission (quand le résultat est là)
+</th>
+<th style="text-align:right;">
+jamais
+</th>
+<th style="text-align:right;">
+quand j’y pense
+</th>
+<th style="text-align:right;">
+une fois la version finale envoyée
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<strong>Algorithmique..recherche.opérationnelle</strong>
+</td>
+<td style="text-align:right;">
+<strong>44</strong>
+</td>
+<td style="text-align:right;">
+<strong>22</strong>
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+40
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Architecture.des.machines
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bioinformatique
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Génie.logiciel.et.programmation
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Images.et.géométrie..scènes..parole..signaux
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+41
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Informatique.fondamentale</strong>
+</td>
+<td style="text-align:right;">
+<strong>37</strong>
+</td>
+<td style="text-align:right;">
+<strong>18</strong>
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+18
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique.industrielle
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Intelligence.Artificielle
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+43
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interaction.humain.machine
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+49
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.naturels.
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Réseaux
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+11
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes.d.information
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+31
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes.informatiques
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+19
+</td>
+</tr>
+</tbody>
+</table>
+
+En Algorithme, recherche opérationnelle et en Informatique théorique, l'utilisation des archives ouvertes peut se faire avant la soumission, ou au moment de la soumission, ce que l'on ne retrouve pas dans les autres thématiques.
+
+## Publication ouverte
+
+Avec les changements de réglementation pour l'accès ouvert au niveau
+national ou européen, de nombreuses revues et conférences mettent 
+maintenant à  disposition de tous (gratuitement) l'accès à leurs articles publiés : on parle de publication ouverte, ou *gold open access*.
+
+Est ce que c'est un critère de choix quand il s'agit de choisir un canal
+de communication ?
+
+![L'accès ouvert comme critère](figure-gfm/critereoa-1.png)
+
+Ce n'est pour l'instant pas un critère prépondérant.
+Dans les réponses ouvertes sur les critères de sélection des canaux,
+il est très clair que payer pour rendre un article visible de tous
+n'est pas un mode de fonctionnement accepté par les chercheurs ([modèle auteur-payeur dans la publication ouverte](https://openaccess.couperin.org/la-voie-doree-2/)).
+
+On note là encore des différences selon les thématiques.
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+ne sais pas
+</th>
+<th style="text-align:right;">
+non
+</th>
+<th style="text-align:right;">
+oui
+</th>
+<th style="text-align:right;">
+souvent, mais ce n’est pas systématique
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<strong>Algorithmique, recherche opérationnelle</strong>
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+68
+</td>
+<td style="text-align:right;">
+<strong>19</strong>
+</td>
+<td style="text-align:right;">
+<strong>60</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Architecture des machines
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bioinformatique
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Génie logiciel et programmation
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Images et géométrie, scènes, parole, signaux
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+46
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Informatique fondamentale</strong>
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+<strong>28</strong>
+</td>
+<td style="text-align:right;">
+<strong>28</strong>
+</td>
+<td style="text-align:right;">
+<strong>32</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique industrielle
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Intelligence Artificielle</strong>
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+<strong>21</strong>
+</td>
+<td style="text-align:right;">
+<strong>23</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interaction humain machine
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+17
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Réseaux
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Systèmes d'information</strong>
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+<strong>27</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Systèmes informatiques
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+7
+</td>
+</tr>
+</tbody>
+</table>
+
+On retrouve en toute cohérence les thématiques Algorithme, recherche opérationnelle et Informatique théorique pour lesquelles l'aspect accès ouvert est souvent un critère de sélection d'un canal. On retrouve aussi des thématiques comme l'Intelligence Artificielle et les Systèmes d'information pour lesquelles ce critère compte, alors qu'elles n'ont pas une pratique particulièrement développée en terme d'archivage ouvert.
