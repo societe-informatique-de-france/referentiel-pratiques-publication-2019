@@ -1416,11 +1416,11 @@ Quelles sont les pratiques en la matière en informatique ?
 
 ## Archivage ouvert
 
-Il est possible de déposer son travail à plusieurs niveau de maturité dans une archive ouverte type HAL ou arXiv (on parle de *green open access*) :
+Il est possible de déposer son travail à plusieurs niveau de maturité dans une archive ouverte type HAL ou arXiv (on parle de *green open access*) :
 
-+ dès que le résultat est obtenu : cela permet de diffuser sans attendre un résultat, mais aussi d'avoir un retour des lecteurs ;
-+ dès que le papier est soumis pour évaluation : cela permet généralement de dater le travail ;
-+ une fois que le papier est accepté : pour répondre par exemple au cadre du plan national de la science ouverte .
++ dès que le résultat est obtenu : cela permet de diffuser sans attendre un résultat, mais aussi d'avoir un retour des lecteurs ;
++ dès que le papier est soumis pour évaluation : cela permet généralement de dater le travail ;
++ une fois que le papier est accepté : pour répondre par exemple au cadre du plan national de la science ouverte.
 
 Ce dépôt peut être moins systématique (« quand j'y pense ») ou complètement absent de la pratique de publication.
 
