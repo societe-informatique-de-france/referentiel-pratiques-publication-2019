@@ -27,3 +27,20 @@ la thématique.*
 *Il est aussi nécessaire d'identifier les canaux les plus prestigieux.
 Il peut s'agir de conférences ou de revues, cela dépend de la thématique.*
 
+## Canaux extrêmement prestigieux
+
+*Cune seule publication dans ce canal force le respect à l'international*
+
+## Canaux très recherchés
+
+*un senior de premier plan y aura publié*
+
+## Canaux de qualité
+
+*doctorant ou senior, on est fier d'y avoir publié*
+
+## Canaux à destination des doctorants prioritairement
+
+## Canaux d'animation de la communauté
+
+*lieux de rencontre et de réseautage ; préciser français / international*
