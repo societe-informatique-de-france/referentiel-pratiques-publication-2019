@@ -190,27 +190,25 @@ soumission (contre 30% globalement)
 
 # Analyse des canaux de publication
 
-*C'est la partie la plus difficile, et la plus délicate. Les réponses
-doivent permettre d'identifier les canaux de publication habituels de
-la thématique.*
+Les canaux considérés comme prestigieux ou recherchés sont extrêmement
+variés. Selon les communautés, on y trouve :
 
-*Il est aussi nécessaire d'identifier les canaux les plus prestigieux.
-Il peut s'agir de conférences ou de revues, cela dépend de la thématique.*
+- des conférences d'informatique généralistes (ex : STOC),
+- des journaux d'informatique généralistes (ex: Journal of the ACM),
+- des journaux de mathématiques généralistes (ex: Annals of Maths),
+- des journaux de science généralistes (ex : Nature),
+- de nombreux canaux plus spécialisés, que ce soit des conférences (ex : CRYPTO), des journaux d'informatique (ex : ACM TOG) ou des journaux de mathématiques (ex : Annals of probability).
 
-## Canaux extrêmement prestigieux
+L'attribution d'un même canal aux différents niveaux de prestige
+(prestigieux/recherché/de qualité) varie selon les réponses, en
+particulier pour les canaux généralistes.
 
-*Cune seule publication dans ce canal force le respect à l'international*
+L'existence de canaux à destination des doctorants n'est pas claire :
+beaucoup de réponses mentionnent les même canaux que dans le cas
+général, ou évoquent des ateliers (internationaux ou français) ou
+groupes de travail de GDR qui sont repris dans les exemples de canaux
+d'animation.
 
-## Canaux très recherchés
-
-*un senior de premier plan y aura publié*
-
-## Canaux de qualité
-
-*doctorant ou senior, on est fier d'y avoir publié*
-
-## Canaux à destination des doctorants prioritairement
-
-## Canaux d'animation de la communauté
-
-*lieux de rencontre et de réseautage ; préciser français / international*
+De nombreuses réponses dans la rubrique "remarques complémentaires"
+expriment une méfiance voire un refus des classements de canaux de
+publication.
