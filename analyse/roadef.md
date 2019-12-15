@@ -16,8 +16,6 @@ Globalement, la publication en revue semble avoir plus de poids pour les adhére
 
 ## Ordre des auteurs
 
-2)	Ordre des auteurs
-
 Question posée : « L’ordre des auteurs a-t-il une importance ? »
 
 Pour les adhérents à la ROADEF, l’ordre des auteurs dans une publication a le plus souvent une importance. L’ordre alphabétique ne semble être systématiquement utilisé que pour 25% des répondants. Pour les autres, les pratiques décrites dans les réponses libres indiquent deux logiques :
