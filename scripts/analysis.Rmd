@@ -121,7 +121,11 @@ Expérience dans la thématique
 ```{r experience, echo=FALSE}
 experience = as.data.frame(lapply(answers[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui ont indiqué l'année de leur début
 summary(experience)
-boxplot(experience)
+experience$theme = as.factor(answers$theme)
+experience$asso = as.factor(answers$assoc)
+levels(experience$theme) = c("Algo/RO", "Archi", "Bioinfo", "GL/Prog", "Images", "Info Fond.", "Info Indus", "IA", "IHM", "Mod/Simu", "Réseaux", "Sys Inf/ion", "Sys Inf/ues")
+boxplot(experience[,1]~experience[,2], las=3)
+boxplot(experience[,1]~experience[,3], las=3)
 ```
 
 ### Associations
@@ -267,6 +271,7 @@ Déposez-vous systématiquement vos articles sur arXiv, HAL, etc ?
 ```{r archivesouvertes, echo=FALSE}
 mychoices(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
 mydetails(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
+mypie(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
 ```
 
 ### Critère

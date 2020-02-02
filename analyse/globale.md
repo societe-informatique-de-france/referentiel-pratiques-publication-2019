@@ -75,7 +75,11 @@ Une autre information importante est l'expérience du chercheur dans ce domaine.
 
 ![](figure-gfm/experience-1.png)
 
-Avec une expérience médiane de 15 années, la moitié des réponses qui indiquent entre 10 et 20 années d'expérience, les participants sont plutôt des chercheurs confirmés. On ne note pas de différence thématique significative, si ce n'est que l'expérience médiane parmi les réponses venant d'informatique théorique (GDR IM) est de 13 années alors que l'expérience médiane des réponses provenant des adhérents de la SIF est de 20 années.
+Avec une expérience médiane de 15 années, la moitié des réponses qui indiquent entre 10 et 21 années d'expérience, les participants sont plutôt des chercheurs confirmés. On ne note pas de différence significative selon la thématique.
+
+![](figure-gfm/experience-2.png)
+
+Au niveau de l'origine des réponse, on note que l'expérience médiane parmi les réponses venant d'informatique théorique (GDR IM) est de 13 années alors que l'expérience médiane des réponses provenant des adhérents de la SIF est de 20 années.
 
 
 ## Associations
