@@ -193,37 +193,37 @@ mes actes de conférences sont publiés par des revues ! (%)
 <tbody>
 <tr>
 <td style="text-align:left;">
-<strong>Algorithmique, recherche opérationnelle</strong>
+Algorithmique, recherche opérationnelle
 </td>
 <td style="text-align:right;">
-10
+12
 </td>
 <td style="text-align:right;">
-6.29
+7.23
 </td>
 <td style="text-align:right;">
-<strong>78</strong>
+81
 </td>
 <td style="text-align:right;">
-<strong>49.06</strong>
+48.80
 </td>
 <td style="text-align:right;">
-<strong>68</strong>
+69
 </td>
 <td style="text-align:right;">
-<strong>42.77</strong>
+41.57
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-1.26
+1.20
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-0.63
+0.60
 </td>
 </tr>
 <tr>
@@ -231,22 +231,22 @@ mes actes de conférences sont publiés par des revues ! (%)
 Architecture des machines
 </td>
 <td style="text-align:right;">
-0
+5
 </td>
 <td style="text-align:right;">
-0.00
+31.25
 </td>
 <td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-50.00
-</td>
-<td style="text-align:right;">
-1
+8
 </td>
 <td style="text-align:right;">
 50.00
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+18.75
 </td>
 <td style="text-align:right;">
 0
@@ -272,16 +272,16 @@ Bioinformatique
 0.00
 </td>
 <td style="text-align:right;">
-7
+19
 </td>
 <td style="text-align:right;">
-77.78
+70.37
 </td>
 <td style="text-align:right;">
-2
+8
 </td>
 <td style="text-align:right;">
-22.22
+29.63
 </td>
 <td style="text-align:right;">
 0
@@ -301,57 +301,58 @@ Bioinformatique
 Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
-3
+21
 </td>
 <td style="text-align:right;">
-13.64
+27.63
 </td>
 <td style="text-align:right;">
-12
+43
 </td>
 <td style="text-align:right;">
-54.55
+56.58
 </td>
 <td style="text-align:right;">
-4
+7
 </td>
 <td style="text-align:right;">
-18.18
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-4.55
+9.21
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-9.09
+2.63
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+2.63
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Images et géométrie, scènes, parole, signaux</strong>
+Images et géométrie, scènes, parole, signaux
+
 </td>
 <td style="text-align:right;">
 3
 </td>
 <td style="text-align:right;">
-4.62
+3.26
 </td>
 <td style="text-align:right;">
-34
+51
 </td>
 <td style="text-align:right;">
-52.31
+55.43
 </td>
 <td style="text-align:right;">
-9
+14
 </td>
 <td style="text-align:right;">
-13.85
+15.22
 </td>
 <td style="text-align:right;">
 0
@@ -360,10 +361,10 @@ Génie logiciel et programmation
 0.00
 </td>
 <td style="text-align:right;">
-<strong>19</strong>
+24
 </td>
 <td style="text-align:right;">
-<strong>29.23</strong>
+26.09
 </td>
 </tr>
 <tr>
@@ -371,34 +372,34 @@ Génie logiciel et programmation
 Informatique fondamentale
 </td>
 <td style="text-align:right;">
-20
+24
 </td>
 <td style="text-align:right;">
-21.51
+15.79
 </td>
 <td style="text-align:right;">
-47
+85
 </td>
 <td style="text-align:right;">
-50.54
+55.92
 </td>
 <td style="text-align:right;">
-18
+34
 </td>
 <td style="text-align:right;">
-19.35
+22.37
 </td>
 <td style="text-align:right;">
-3
+4
 </td>
 <td style="text-align:right;">
-3.23
+2.63
 </td>
 <td style="text-align:right;">
 5
 </td>
 <td style="text-align:right;">
-5.38
+3.29
 </td>
 </tr>
 <tr>
@@ -406,6 +407,24 @@ Informatique fondamentale
 Informatique industrielle
 </td>
 <td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+27.27
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+54.55
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+9.09
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
@@ -415,25 +434,7 @@ Informatique industrielle
 1
 </td>
 <td style="text-align:right;">
-100.00
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.00
+9.09
 </td>
 </tr>
 <tr>
@@ -441,34 +442,34 @@ Informatique industrielle
 Intelligence Artificielle
 </td>
 <td style="text-align:right;">
-28
+42
 </td>
 <td style="text-align:right;">
-30.43
+26.92
 </td>
 <td style="text-align:right;">
-50
+87
 </td>
 <td style="text-align:right;">
-54.35
+55.77
 </td>
 <td style="text-align:right;">
-9
+19
 </td>
 <td style="text-align:right;">
-9.78
+12.18
 </td>
 <td style="text-align:right;">
-0
+1
 </td>
 <td style="text-align:right;">
-0.00
+0.64
 </td>
 <td style="text-align:right;">
-5
+6
 </td>
 <td style="text-align:right;">
-5.43
+3.85
 </td>
 </tr>
 <tr>
@@ -476,22 +477,22 @@ Intelligence Artificielle
 Interaction humain machine
 </td>
 <td style="text-align:right;">
-22
+30
 </td>
 <td style="text-align:right;">
-29.33
+26.32
 </td>
 <td style="text-align:right;">
-41
+64
 </td>
 <td style="text-align:right;">
-54.67
+56.14
 </td>
 <td style="text-align:right;">
-8
+13
 </td>
 <td style="text-align:right;">
-10.67
+11.40
 </td>
 <td style="text-align:right;">
 0
@@ -500,45 +501,45 @@ Interaction humain machine
 0.00
 </td>
 <td style="text-align:right;">
-4
+7
 </td>
 <td style="text-align:right;">
-5.33
+6.14
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
+Modélisation-simulation pour les systèmes complexes (systèmes artificiels et naturels)
 </td>
 <td style="text-align:right;">
-0
+3
 </td>
 <td style="text-align:right;">
-0.00
+6.38
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+57.45
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+27.66
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-33.33
+2.13
 </td>
 <td style="text-align:right;">
-1
+3
 </td>
 <td style="text-align:right;">
-33.33
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-33.33
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.00
+6.38
 </td>
 </tr>
 <tr>
@@ -546,22 +547,22 @@ Modélisation simulation pour les systèmes complexes, systèmes artificiels et 
 Réseaux
 </td>
 <td style="text-align:right;">
-5
+6
 </td>
 <td style="text-align:right;">
-18.52
+15.00
 </td>
 <td style="text-align:right;">
-17
+26
 </td>
 <td style="text-align:right;">
-62.96
+65.00
 </td>
 <td style="text-align:right;">
-5
+8
 </td>
 <td style="text-align:right;">
-18.52
+20.00
 </td>
 <td style="text-align:right;">
 0
@@ -584,31 +585,31 @@ Systèmes d'information
 17
 </td>
 <td style="text-align:right;">
-19.54
+19.32
 </td>
 <td style="text-align:right;">
 54
 </td>
 <td style="text-align:right;">
-62.07
+61.36
 </td>
 <td style="text-align:right;">
 13
 </td>
 <td style="text-align:right;">
-14.94
+14.77
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-1.15
+1.14
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-2.30
+2.27
 </td>
 </tr>
 <tr>
@@ -616,22 +617,22 @@ Systèmes d'information
 Systèmes informatiques
 </td>
 <td style="text-align:right;">
-14
+22
 </td>
 <td style="text-align:right;">
-42.42
+34.38
 </td>
 <td style="text-align:right;">
-17
+36
 </td>
 <td style="text-align:right;">
-51.52
+56.25
 </td>
 <td style="text-align:right;">
-2
+5
 </td>
 <td style="text-align:right;">
-6.06
+7.81
 </td>
 <td style="text-align:right;">
 0
@@ -676,10 +677,19 @@ pas systématique (il y a presque autant de réponses négatives que positives d
 je ne sais pas
 </th>
 <th style="text-align:right;">
+je ne sais pas (%)
+</th>
+<th style="text-align:right;">
 non
 </th>
 <th style="text-align:right;">
+non (%)
+</th>
+<th style="text-align:right;">
 oui
+</th>
+<th style="text-align:right;">
+oui (%)
 </th>
 </tr>
 </thead>
@@ -692,10 +702,19 @@ Algorithmique, recherche opérationnelle
 12
 </td>
 <td style="text-align:right;">
-32
+7.23
 </td>
 <td style="text-align:right;">
-114
+34
+</td>
+<td style="text-align:right;">
+20.48
+</td>
+<td style="text-align:right;">
+119
+</td>
+<td style="text-align:right;">
+71.69
 </td>
 </tr>
 <tr>
@@ -706,10 +725,19 @@ Architecture des machines
 0
 </td>
 <td style="text-align:right;">
-1
+0.00
 </td>
 <td style="text-align:right;">
-1
+4
+</td>
+<td style="text-align:right;">
+25.00
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+75.00
 </td>
 </tr>
 <tr>
@@ -720,10 +748,19 @@ Bioinformatique
 1
 </td>
 <td style="text-align:right;">
-0
+3.70
 </td>
 <td style="text-align:right;">
-8
+2
+</td>
+<td style="text-align:right;">
+7.41
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+88.89
 </td>
 </tr>
 <tr>
@@ -731,27 +768,46 @@ Bioinformatique
 Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
-2
+5
 </td>
 <td style="text-align:right;">
-7
+6.58
 </td>
 <td style="text-align:right;">
-13
+23
+</td>
+<td style="text-align:right;">
+30.26
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+63.16
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Images et géométrie, scènes, parole, signaux
+
 </td>
 <td style="text-align:right;">
-2
+4
 </td>
 <td style="text-align:right;">
-15
+4.35
 </td>
 <td style="text-align:right;">
-48
+24
+</td>
+<td style="text-align:right;">
+26.09
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:right;">
+69.57
 </td>
 </tr>
 <tr>
@@ -759,13 +815,22 @@ Images et géométrie, scènes, parole, signaux
 Informatique fondamentale
 </td>
 <td style="text-align:right;">
-8
+13
 </td>
 <td style="text-align:right;">
-19
+8.55
 </td>
 <td style="text-align:right;">
-66
+31
+</td>
+<td style="text-align:right;">
+20.39
+</td>
+<td style="text-align:right;">
+107
+</td>
+<td style="text-align:right;">
+70.39
 </td>
 </tr>
 <tr>
@@ -776,52 +841,88 @@ Informatique industrielle
 0
 </td>
 <td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-0
+9.09
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+90.91
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Intelligence Artificielle</strong>
+Intelligence Artificielle
 </td>
 <td style="text-align:right;">
-2
+4
 </td>
 <td style="text-align:right;">
-<strong>43</strong>
+2.56
 </td>
 <td style="text-align:right;">
-<strong>47</strong>
+56
+</td>
+<td style="text-align:right;">
+35.90
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+61.54
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Interaction humain machine</strong>
+Interaction humain machine
 </td>
 <td style="text-align:right;">
-5
+6
 </td>
 <td style="text-align:right;">
-<strong>33</strong>
+5.26
 </td>
 <td style="text-align:right;">
-<strong>36</strong>
+46
+</td>
+<td style="text-align:right;">
+40.35
+</td>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+53.51
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
+Modélisation-simulation pour les systèmes complexes (systèmes artificiels et naturels)
 </td>
 <td style="text-align:right;">
-1
+4
 </td>
 <td style="text-align:right;">
-1
+8.51
 </td>
 <td style="text-align:right;">
-1
+9
+</td>
+<td style="text-align:right;">
+19.15
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+72.34
 </td>
 </tr>
 <tr>
@@ -829,13 +930,22 @@ Modélisation simulation pour les systèmes complexes, systèmes artificiels et 
 Réseaux
 </td>
 <td style="text-align:right;">
-1
+2
 </td>
 <td style="text-align:right;">
-9
+5.00
 </td>
 <td style="text-align:right;">
-17
+12
+</td>
+<td style="text-align:right;">
+30.00
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+65.00
 </td>
 </tr>
 <tr>
@@ -846,10 +956,19 @@ Systèmes d'information
 5
 </td>
 <td style="text-align:right;">
+5.68
+</td>
+<td style="text-align:right;">
 21
 </td>
 <td style="text-align:right;">
+23.86
+</td>
+<td style="text-align:right;">
 62
+</td>
+<td style="text-align:right;">
+70.45
 </td>
 </tr>
 <tr>
@@ -857,13 +976,22 @@ Systèmes d'information
 Systèmes informatiques
 </td>
 <td style="text-align:right;">
-1
+3
 </td>
 <td style="text-align:right;">
-14
+4.69
 </td>
 <td style="text-align:right;">
 19
+</td>
+<td style="text-align:right;">
+29.69
+</td>
+<td style="text-align:right;">
+42
+</td>
+<td style="text-align:right;">
+65.62
 </td>
 </tr>
 </tbody>
@@ -891,38 +1019,68 @@ Par contre, des thématiques comme l'intelligence artificielle et l'interaction 
 encore moins que cela
 </th>
 <th style="text-align:right;">
+encore moins que cela (%)
+</th>
+<th style="text-align:right;">
 entre 6 mois et un an
+</th>
+<th style="text-align:right;">
+entre 6 mois et un an (%)
 </th>
 <th style="text-align:right;">
 entre un et deux ans
 </th>
 <th style="text-align:right;">
+entre un et deux ans (%)
+</th>
+<th style="text-align:right;">
 je ne sais pas
 </th>
 <th style="text-align:right;">
+je ne sais pas (%)
+</th>
+<th style="text-align:right;">
 moins de 6 mois
+</th>
+<th style="text-align:right;">
+moins de 6 mois (%)
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-<strong>Algorithmique, recherche opérationnelle</strong>
+Algorithmique, recherche opérationnelle
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-37
+1.20
 </td>
 <td style="text-align:right;">
-<strong>113</strong>
+41
+</td>
+<td style="text-align:right;">
+24.70
+</td>
+<td style="text-align:right;">
+116
+</td>
+<td style="text-align:right;">
+69.88
 </td>
 <td style="text-align:right;">
 6
 </td>
 <td style="text-align:right;">
+3.61
+</td>
+<td style="text-align:right;">
 1
+</td>
+<td style="text-align:right;">
+0.60
 </td>
 </tr>
 <tr>
@@ -933,16 +1091,31 @@ Architecture des machines
 0
 </td>
 <td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+43.75
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+50.00
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+6.25
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
+0.00
 </td>
 </tr>
 <tr>
@@ -950,19 +1123,34 @@ Architecture des machines
 Bioinformatique
 </td>
 <td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
+3.70
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+29.63
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+51.85
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-3
+0.00
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+14.81
 </td>
 </tr>
 <tr>
@@ -973,36 +1161,67 @@ Génie logiciel et programmation
 0
 </td>
 <td style="text-align:right;">
-9
+0.00
 </td>
 <td style="text-align:right;">
-12
+29
+</td>
+<td style="text-align:right;">
+38.16
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+53.95
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+5.26
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-0
+1.32
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Images et géométrie, scènes, parole, signaux</strong>
+Images et géométrie, scènes, parole, signaux
+
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-<strong>42</strong>
+0.00
 </td>
 <td style="text-align:right;">
-<strong>17</strong>
+57
+</td>
+<td style="text-align:right;">
+61.96
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+29.35
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-4
+2.17
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+6.52
 </td>
 </tr>
 <tr>
@@ -1010,19 +1229,34 @@ Génie logiciel et programmation
 Informatique fondamentale
 </td>
 <td style="text-align:right;">
-0
+1
 </td>
 <td style="text-align:right;">
-27
+0.66
 </td>
 <td style="text-align:right;">
-59
+38
 </td>
 <td style="text-align:right;">
-2
+25.00
+</td>
+<td style="text-align:right;">
+104
+</td>
+<td style="text-align:right;">
+68.42
 </td>
 <td style="text-align:right;">
 4
+</td>
+<td style="text-align:right;">
+2.63
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+2.63
 </td>
 </tr>
 <tr>
@@ -1033,76 +1267,136 @@ Informatique industrielle
 0
 </td>
 <td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45.45
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+54.55
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-1
+0.00
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-0
+0.00
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Intelligence Artificielle</strong>
+Intelligence Artificielle
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-<strong>52</strong>
+0.64
 </td>
 <td style="text-align:right;">
-<strong>33</strong>
+71
+</td>
+<td style="text-align:right;">
+45.51
+</td>
+<td style="text-align:right;">
+74
+</td>
+<td style="text-align:right;">
+47.44
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+3.85
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+1.92
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interaction humain machine
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+51.75
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+35.09
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+7.89
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+5.26
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation-simulation pour les systèmes complexes (systèmes artificiels et naturels)
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-3
+4.26
 </td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<strong>Interaction humain machine</strong>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+27.66
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+59.57
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+8.51
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-<strong>39</strong>
-</td>
-<td style="text-align:right;">
-<strong>24</strong>
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0
+0.00
 </td>
 </tr>
 <tr>
@@ -1113,16 +1407,31 @@ Réseaux
 0
 </td>
 <td style="text-align:right;">
-10
+0.00
 </td>
 <td style="text-align:right;">
-14
+13
+</td>
+<td style="text-align:right;">
+32.50
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+60.00
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
+2.50
+</td>
+<td style="text-align:right;">
 2
+</td>
+<td style="text-align:right;">
+5.00
 </td>
 </tr>
 <tr>
@@ -1133,16 +1442,31 @@ Systèmes d'information
 0
 </td>
 <td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
 36
+</td>
+<td style="text-align:right;">
+40.91
 </td>
 <td style="text-align:right;">
 44
 </td>
 <td style="text-align:right;">
+50.00
+</td>
+<td style="text-align:right;">
 5
 </td>
 <td style="text-align:right;">
+5.68
+</td>
+<td style="text-align:right;">
 1
+</td>
+<td style="text-align:right;">
+1.14
 </td>
 </tr>
 <tr>
@@ -1153,16 +1477,31 @@ Systèmes informatiques
 0
 </td>
 <td style="text-align:right;">
-13
+0.00
 </td>
 <td style="text-align:right;">
-19
+25
 </td>
 <td style="text-align:right;">
-1
+39.06
 </td>
 <td style="text-align:right;">
-1
+35
+</td>
+<td style="text-align:right;">
+54.69
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+3.12
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+3.12
 </td>
 </tr>
 </tbody>
@@ -1200,32 +1539,56 @@ Il est intéressant de noter que les pratiques divergent selon les thématiques.
 ça dépend (expliquer ci-dessous)
 </th>
 <th style="text-align:right;">
+ça dépend (expliquer ci-dessous) (%)
+</th>
+<th style="text-align:right;">
 je ne sais pas
+</th>
+<th style="text-align:right;">
+je ne sais pas (%)
 </th>
 <th style="text-align:right;">
 non (ordre alphabétique par ex.)
 </th>
 <th style="text-align:right;">
+non (ordre alphabétique par ex.) (%)
+</th>
+<th style="text-align:right;">
 oui (expliquer ci-dessous)
+</th>
+<th style="text-align:right;">
+oui (expliquer ci-dessous) (%)
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-<strong>Algorithmique, recherche opérationnelle</strong>
+Algorithmique, recherche opérationnelle
 </td>
 <td style="text-align:right;">
-<strong>32</strong>
+35
+</td>
+<td style="text-align:right;">
+21.08
 </td>
 <td style="text-align:right;">
 5
 </td>
 <td style="text-align:right;">
-<strong>84</strong>
+3.01
 </td>
 <td style="text-align:right;">
-36
+86
+</td>
+<td style="text-align:right;">
+51.81
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+22.89
 </td>
 </tr>
 <tr>
@@ -1233,16 +1596,28 @@ oui (expliquer ci-dessous)
 Architecture des machines
 </td>
 <td style="text-align:right;">
-0
+3
+</td>
+<td style="text-align:right;">
+18.75
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-0
+0.00
 </td>
 <td style="text-align:right;">
-2
+4
+</td>
+<td style="text-align:right;">
+25.00
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+56.25
 </td>
 </tr>
 <tr>
@@ -1250,16 +1625,28 @@ Architecture des machines
 Bioinformatique
 </td>
 <td style="text-align:right;">
-1
+5
+</td>
+<td style="text-align:right;">
+18.52
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-1
+0.00
 </td>
 <td style="text-align:right;">
-7
+8
+</td>
+<td style="text-align:right;">
+29.63
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+44.44
 </td>
 </tr>
 <tr>
@@ -1267,50 +1654,87 @@ Bioinformatique
 Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
-3
+20
 </td>
 <td style="text-align:right;">
-0
+26.32
 </td>
 <td style="text-align:right;">
-5
+2
 </td>
 <td style="text-align:right;">
-<strong>14</strong>
+2.63
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+25.00
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+46.05
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Images et géométrie,scènes, parole, signaux
+Images et géométrie, scènes, parole, signaux
+
 </td>
 <td style="text-align:right;">
-4
+9
+</td>
+<td style="text-align:right;">
+9.78
 </td>
 <td style="text-align:right;">
 3
 </td>
 <td style="text-align:right;">
-4
+3.26
 </td>
 <td style="text-align:right;">
-<strong>54</strong>
+8
+</td>
+<td style="text-align:right;">
+8.70
+</td>
+<td style="text-align:right;">
+72
+</td>
+<td style="text-align:right;">
+78.26
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Informatique fondamentale</strong>
+Informatique fondamentale
 </td>
 <td style="text-align:right;">
-14
+23
 </td>
 <td style="text-align:right;">
-0
+15.13
 </td>
 <td style="text-align:right;">
-<strong>76</strong>
+1
 </td>
 <td style="text-align:right;">
-3
+0.66
+</td>
+<td style="text-align:right;">
+121
+</td>
+<td style="text-align:right;">
+79.61
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+4.61
 </td>
 </tr>
 <tr>
@@ -1318,16 +1742,28 @@ Images et géométrie,scènes, parole, signaux
 Informatique industrielle
 </td>
 <td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
 1
+</td>
+<td style="text-align:right;">
+9.09
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+90.91
 </td>
 </tr>
 <tr>
@@ -1335,16 +1771,28 @@ Informatique industrielle
 Intelligence Artificielle
 </td>
 <td style="text-align:right;">
-<strong>26</strong>
+52
 </td>
 <td style="text-align:right;">
-0
+33.33
 </td>
 <td style="text-align:right;">
-11
+3
 </td>
 <td style="text-align:right;">
-<strong>55</strong>
+1.92
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+14.10
+</td>
+<td style="text-align:right;">
+78
+</td>
+<td style="text-align:right;">
+50.00
 </td>
 </tr>
 <tr>
@@ -1352,33 +1800,57 @@ Intelligence Artificielle
 Interaction humain machine
 </td>
 <td style="text-align:right;">
-10
+18
 </td>
 <td style="text-align:right;">
-0
+15.79
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+1.75
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+7.02
+</td>
+<td style="text-align:right;">
+86
+</td>
+<td style="text-align:right;">
+75.44
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation-simulation pour les systèmes complexes (systèmes artificiels et naturels)
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+19.15
 </td>
 <td style="text-align:right;">
 4
 </td>
 <td style="text-align:right;">
-<strong>61</strong>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Modélisation simulation pour les systèmes complexes,  systèmes artificiels et naturels
+8.51
 </td>
 <td style="text-align:right;">
-0
+7
 </td>
 <td style="text-align:right;">
-1
+14.89
 </td>
 <td style="text-align:right;">
-0
+27
 </td>
 <td style="text-align:right;">
-2
+57.45
 </td>
 </tr>
 <tr>
@@ -1386,16 +1858,28 @@ Modélisation simulation pour les systèmes complexes,  systèmes artificiels et
 Réseaux
 </td>
 <td style="text-align:right;">
-2
+8
+</td>
+<td style="text-align:right;">
+20.00
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-4
+0.00
 </td>
 <td style="text-align:right;">
-<strong>21</strong>
+8
+</td>
+<td style="text-align:right;">
+20.00
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+60.00
 </td>
 </tr>
 <tr>
@@ -1403,16 +1887,28 @@ Réseaux
 Systèmes d'information
 </td>
 <td style="text-align:right;">
-<strong>27</strong>
+27
+</td>
+<td style="text-align:right;">
+30.68
 </td>
 <td style="text-align:right;">
 3
 </td>
 <td style="text-align:right;">
+3.41
+</td>
+<td style="text-align:right;">
 16
 </td>
 <td style="text-align:right;">
-<strong>40</strong>
+18.18
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+45.45
 </td>
 </tr>
 <tr>
@@ -1420,16 +1916,28 @@ Systèmes d'information
 Systèmes informatiques
 </td>
 <td style="text-align:right;">
-6
+15
+</td>
+<td style="text-align:right;">
+23.44
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-5
+1.56
 </td>
 <td style="text-align:right;">
-<strong>22</strong>
+13
+</td>
+<td style="text-align:right;">
+20.31
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+54.69
 </td>
 </tr>
 </tbody>
@@ -1655,58 +2163,103 @@ On note cependant des différences de pratiques dans certaines communautés.
 au moment de la soumission
 </th>
 <th style="text-align:right;">
+au moment de la soumission (%)
+</th>
+<th style="text-align:right;">
 avant la soumission (quand le résultat est là)
+</th>
+<th style="text-align:right;">
+avant la soumission (quand le résultat est là) (%)
 </th>
 <th style="text-align:right;">
 jamais
 </th>
 <th style="text-align:right;">
+jamais (%)
+</th>
+<th style="text-align:right;">
 quand j’y pense
 </th>
 <th style="text-align:right;">
+quand j’y pense (%)
+</th>
+<th style="text-align:right;">
 une fois la version finale envoyée
+</th>
+<th style="text-align:right;">
+une fois la version finale envoyée (%)
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-<strong>Algorithmique..recherche.opérationnelle</strong>
+Algorithmique, recherche opérationnelle
 </td>
 <td style="text-align:right;">
-<strong>44</strong>
+45
 </td>
 <td style="text-align:right;">
-<strong>22</strong>
+27.11
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+13.86
 </td>
 <td style="text-align:right;">
 8
 </td>
 <td style="text-align:right;">
-44
+4.82
 </td>
 <td style="text-align:right;">
-40
+47
+</td>
+<td style="text-align:right;">
+28.31
+</td>
+<td style="text-align:right;">
+42
+</td>
+<td style="text-align:right;">
+25.30
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Architecture.des.machines
+Architecture des machines
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-0
+0.00
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-0
+6.25
 </td>
 <td style="text-align:right;">
-1
+2
+</td>
+<td style="text-align:right;">
+12.50
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+18.75
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+62.50
 </td>
 </tr>
 <tr>
@@ -1714,159 +2267,280 @@ Architecture.des.machines
 Bioinformatique
 </td>
 <td style="text-align:right;">
-2
+7
 </td>
 <td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Génie.logiciel.et.programmation
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-0
+25.93
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-5
+3.70
 </td>
 <td style="text-align:right;">
-14
+4
+</td>
+<td style="text-align:right;">
+14.81
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+40.74
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+14.81
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Images.et.géométrie..scènes..parole..signaux
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-0
+Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
 9
 </td>
 <td style="text-align:right;">
-8
+11.84
 </td>
 <td style="text-align:right;">
-41
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<strong>Informatique.fondamentale</strong>
+2
 </td>
 <td style="text-align:right;">
-<strong>37</strong>
-</td>
-<td style="text-align:right;">
-<strong>18</strong>
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-16
-</td>
-<td style="text-align:right;">
-18
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Informatique.industrielle
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Intelligence.Artificielle
-</td>
-<td style="text-align:right;">
-9
+2.63
 </td>
 <td style="text-align:right;">
 5
+</td>
+<td style="text-align:right;">
+6.58
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+28.95
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+48.68
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Images et géométrie, scènes, parole, signaux
+
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+11.96
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.00
 </td>
 <td style="text-align:right;">
 10
 </td>
 <td style="text-align:right;">
-25
+10.87
 </td>
 <td style="text-align:right;">
-43
+14
+</td>
+<td style="text-align:right;">
+15.22
+</td>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+60.87
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Interaction.humain.machine
+Informatique fondamentale
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+39.47
+</td>
+<td style="text-align:right;">
+31
+</td>
+<td style="text-align:right;">
+20.39
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
+1.32
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+19.08
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+17.76
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique industrielle
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-7
+0.00
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+54.55
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45.45
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Intelligence Artificielle
 </td>
 <td style="text-align:right;">
 17
 </td>
 <td style="text-align:right;">
-49
+10.90
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+4.49
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+10.26
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+30.77
+</td>
+<td style="text-align:right;">
+67
+</td>
+<td style="text-align:right;">
+42.95
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.naturels.
+Interaction humain machine
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+2.63
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-1
+0.88
 </td>
 <td style="text-align:right;">
-0
+10
 </td>
 <td style="text-align:right;">
-0
+8.77
 </td>
 <td style="text-align:right;">
-1
+30
+</td>
+<td style="text-align:right;">
+26.32
+</td>
+<td style="text-align:right;">
+70
+</td>
+<td style="text-align:right;">
+61.40
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation-simulation pour les systèmes complexes (systèmes artificiels et naturels)
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+25.53
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4.26
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+8.51
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+17.02
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+42.55
 </td>
 </tr>
 <tr>
@@ -1874,59 +2548,104 @@ Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.
 Réseaux
 </td>
 <td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+15.00
+</td>
+<td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-1
+5.00
 </td>
 <td style="text-align:right;">
 6
 </td>
 <td style="text-align:right;">
-7
+15.00
 </td>
 <td style="text-align:right;">
 11
 </td>
+<td style="text-align:right;">
+27.50
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+37.50
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Systèmes.d.information
+Systèmes d'information
 </td>
 <td style="text-align:right;">
 6
 </td>
 <td style="text-align:right;">
+6.82
+</td>
+<td style="text-align:right;">
 2
+</td>
+<td style="text-align:right;">
+2.27
 </td>
 <td style="text-align:right;">
 10
 </td>
 <td style="text-align:right;">
+11.36
+</td>
+<td style="text-align:right;">
 38
+</td>
+<td style="text-align:right;">
+43.18
 </td>
 <td style="text-align:right;">
 31
 </td>
+<td style="text-align:right;">
+35.23
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Systèmes.informatiques
+Systèmes informatiques
 </td>
 <td style="text-align:right;">
-1
+4
+</td>
+<td style="text-align:right;">
+6.25
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-3
+3.12
 </td>
 <td style="text-align:right;">
-9
+7
 </td>
 <td style="text-align:right;">
-19
+10.94
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+26.56
+</td>
+<td style="text-align:right;">
+33
+</td>
+<td style="text-align:right;">
+51.56
 </td>
 </tr>
 </tbody>
@@ -1961,32 +2680,56 @@ On note là encore des différences selon les thématiques.
 ne sais pas
 </th>
 <th style="text-align:right;">
+ne sais pas (%)
+</th>
+<th style="text-align:right;">
 non
+</th>
+<th style="text-align:right;">
+non (%)
 </th>
 <th style="text-align:right;">
 oui
 </th>
 <th style="text-align:right;">
+oui (%)
+</th>
+<th style="text-align:right;">
 souvent, mais ce n’est pas systématique
+</th>
+<th style="text-align:right;">
+souvent, mais ce n’est pas systématique (%)
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-<strong>Algorithmique, recherche opérationnelle</strong>
+Algorithmique, recherche opérationnelle
 </td>
 <td style="text-align:right;">
 10
 </td>
 <td style="text-align:right;">
-68
+6.02
 </td>
 <td style="text-align:right;">
-<strong>19</strong>
+70
 </td>
 <td style="text-align:right;">
-<strong>60</strong>
+42.17
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+12.05
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:right;">
+38.55
 </td>
 </tr>
 <tr>
@@ -1994,16 +2737,28 @@ souvent, mais ce n’est pas systématique
 Architecture des machines
 </td>
 <td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+12.50
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+43.75
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-1
+0.00
 </td>
 <td style="text-align:right;">
-0
+7
 </td>
 <td style="text-align:right;">
-1
+43.75
 </td>
 </tr>
 <tr>
@@ -2014,13 +2769,25 @@ Bioinformatique
 1
 </td>
 <td style="text-align:right;">
-2
+3.70
 </td>
 <td style="text-align:right;">
-1
+7
 </td>
 <td style="text-align:right;">
-5
+25.93
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+11.11
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+59.26
 </td>
 </tr>
 <tr>
@@ -2028,50 +2795,87 @@ Bioinformatique
 Génie logiciel et programmation
 </td>
 <td style="text-align:right;">
-2
+9
 </td>
 <td style="text-align:right;">
-11
+11.84
 </td>
 <td style="text-align:right;">
-1
+37
 </td>
 <td style="text-align:right;">
-8
+48.68
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+7.89
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+31.58
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Images et géométrie, scènes, parole, signaux
+
 </td>
 <td style="text-align:right;">
 4
 </td>
 <td style="text-align:right;">
-46
+4.35
 </td>
 <td style="text-align:right;">
-4
+65
 </td>
 <td style="text-align:right;">
-10
+70.65
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+6.52
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+17.39
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Informatique fondamentale</strong>
+Informatique fondamentale
 </td>
 <td style="text-align:right;">
-5
+9
 </td>
 <td style="text-align:right;">
-<strong>28</strong>
+5.92
 </td>
 <td style="text-align:right;">
-<strong>28</strong>
+44
 </td>
 <td style="text-align:right;">
-<strong>32</strong>
+28.95
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+26.32
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+38.82
 </td>
 </tr>
 <tr>
@@ -2082,30 +2886,54 @@ Informatique industrielle
 0
 </td>
 <td style="text-align:right;">
-1
+0.00
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45.45
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-0
+0.00
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+54.55
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Intelligence Artificielle</strong>
+Intelligence Artificielle
 </td>
 <td style="text-align:right;">
-1
+3
 </td>
 <td style="text-align:right;">
-47
+1.92
 </td>
 <td style="text-align:right;">
-<strong>21</strong>
+78
 </td>
 <td style="text-align:right;">
-<strong>23</strong>
+50.00
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+20.51
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+27.56
 </td>
 </tr>
 <tr>
@@ -2113,33 +2941,57 @@ Informatique industrielle
 Interaction humain machine
 </td>
 <td style="text-align:right;">
-1
+2
 </td>
 <td style="text-align:right;">
-50
+1.75
 </td>
 <td style="text-align:right;">
-6
+76
 </td>
 <td style="text-align:right;">
-17
+66.67
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+8.77
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+21.93
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
+Modélisation-simulation pour les systèmes complexes (systèmes artificiels et naturels)
 </td>
 <td style="text-align:right;">
-0
+3
 </td>
 <td style="text-align:right;">
-1
+6.38
 </td>
 <td style="text-align:right;">
-0
+25
 </td>
 <td style="text-align:right;">
-2
+53.19
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+10.64
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+27.66
 </td>
 </tr>
 <tr>
@@ -2150,30 +3002,54 @@ Réseaux
 1
 </td>
 <td style="text-align:right;">
-22
+2.50
+</td>
+<td style="text-align:right;">
+31
+</td>
+<td style="text-align:right;">
+77.50
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-4
+0.00
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+20.00
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<strong>Systèmes d'information</strong>
+Systèmes d'information
 </td>
 <td style="text-align:right;">
 6
 </td>
 <td style="text-align:right;">
+6.82
+</td>
+<td style="text-align:right;">
 44
+</td>
+<td style="text-align:right;">
+50.00
 </td>
 <td style="text-align:right;">
 10
 </td>
 <td style="text-align:right;">
-<strong>27</strong>
+11.36
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+30.68
 </td>
 </tr>
 <tr>
@@ -2181,16 +3057,28 @@ Réseaux
 Systèmes informatiques
 </td>
 <td style="text-align:right;">
-2
+4
 </td>
 <td style="text-align:right;">
-21
+6.25
 </td>
 <td style="text-align:right;">
-3
+40
 </td>
 <td style="text-align:right;">
-7
+62.50
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+7.81
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+21.88
 </td>
 </tr>
 </tbody>
