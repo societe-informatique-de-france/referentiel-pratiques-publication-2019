@@ -1483,7 +1483,7 @@ avec des travaux annexes, peuvent servir de base à une version longue qui sera 
 
 De nos jours, il existe aussi la possibilité de déposer un article sur une archive ouverte pour obtenir un premier retour.
 
-Nous avons demandé quels étaient les canaux utilisés pour communiquer un même résultat (sous-entendu à divers niveau de maturité).
+Nous avons demandé quels étaient les canaux utilisés pour communiquer un même résultat (sous-entendu à divers niveaux de maturité).
 
 Les ateliers sont peu utilisés pour présenter un résultat. Les conférences sont les
 canaux privilégiés par rapport aux revues. L'utilisation des archives ouvertes semble important.
