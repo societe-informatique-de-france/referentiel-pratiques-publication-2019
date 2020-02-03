@@ -1,7 +1,7 @@
 ---
 title: Analyse du questionnaire sur les pratiques de publication en informatique
 author: Le conseil des associations de la SIF
-output: github_document
+output: html_document
 always_allow_html: yes
 ---
 
@@ -55,6 +55,23 @@ restriction="toutes"
 #answers = answers[answers[restriction] == 'X',]
 nbreponses = nrow(answers)
 answers = unique(answers) # remove duplicates
+duplicate = function(df,cols) {
+  newdf <- data.frame(matrix(ncol = ncol(df),nrow = 0))
+  for (rowIndex in 1:nrow(df)) {
+    row = df[rowIndex,]
+    for (col in cols) {
+      if (!is.na(row[col])&&row[col]=='X') {
+        newrow <- row
+        newrow[,cols] <- NA
+        newrow[col] <- 'X'
+        newdf <- rbind(newdf,newrow)
+      }
+    }
+  }
+  return(newdf)
+}
+answersthemes = duplicate(answers,c(1:13))
+answersassoc = duplicate(answers,c(16:35))
 nbreponsesuniques = nrow(answers)
 ```
 Cette analyse est restreinte aux adhérents de l'association : **`r restriction`**
@@ -72,12 +89,30 @@ mywordcloud = function(t) {
    wordcloud(text_corpus, max.words = 200, colors = brewer.pal(8, "Dark2"),  rot.per=0)
 }
 mychoices = function (t) {as.data.frame(table(t))}
-mydetails = function (v) {mytable(t(with(answers,table(v,answers$theme))))}
+mydetails = function (v) {
+   df <- as.data.frame.matrix(t(table(v,answersthemes$theme)))
+   nbcols <- ncol(df)
+   finaldf <- as.data.frame(table(answersthemes$theme))
+   for (col in c(1:nbcols)) {
+      finaldf <- cbind(finaldf, df[col])
+      name <- paste(colnames(df)[col], "(%)")
+      percentage <- data.frame(round(100 * df[,col] / finaldf[,2], 2))
+      names(percentage)<-c(name)
+      finaldf <- cbind(finaldf, percentage)
+   }
+   mytable(finaldf[-c(1,2)])
+}
 
 mypie = function (t) {
   df = as.data.frame(table(t))
   df = df[with(df,order(-Freq)),]
   barplot(df$Freq,legend = df$t,col=rainbow(nrow(df)))
+}
+
+myspecificdata = function (x) {
+   titres = colnames(x)
+   result = as.data.frame(sapply(titres,f,df=x))
+   t(result)
 }
 
 mycheckboxes = function (x) {
@@ -91,8 +126,8 @@ toSingleColumn = function(row,elements) {
   }
   return(NA)
 }
-answers[,"theme"] <- apply(answers,1,toSingleColumn,elements=thematiques)
-answers[,"assoc"] <- apply(answers,1,toSingleColumn,elements=associations)
+answersthemes[,"theme"] <- apply(answersthemes,1,toSingleColumn,elements=thematiques)
+answersassoc[,"assoc"] <- apply(answersassoc,1,toSingleColumn,elements=associations)
 ```
 
 Il y a eu `r nbreponses` réponses au total dont `r nbreponsesuniques` uniques après restriction.
@@ -103,6 +138,7 @@ Il y a eu `r nbreponses` réponses au total dont `r nbreponsesuniques` uniques a
 
 ```{r thematiques, echo=FALSE}
 mycheckboxes(answers[1:13])
+reponsesparthematique=myspecificdata(answers[1:13])
 ```
 
 ```{r results='asis', echo=FALSE}
@@ -121,11 +157,13 @@ Expérience dans la thématique
 ```{r experience, echo=FALSE}
 experience = as.data.frame(lapply(answers[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui ont indiqué l'année de leur début
 summary(experience)
-experience$theme = as.factor(answers$theme)
-experience$asso = as.factor(answers$assoc)
-levels(experience$theme) = c("Algo/RO", "Archi", "Bioinfo", "GL/Prog", "Images", "Info Fond.", "Info Indus", "IA", "IHM", "Mod/Simu", "Réseaux", "Sys Inf/ion", "Sys Inf/ues")
-boxplot(experience[,1]~experience[,2], las=3)
-boxplot(experience[,1]~experience[,3], las=3)
+experiencethemes = as.data.frame(lapply(answersthemes[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui ont indiqué l'année de leur début
+experiencethemes$theme = as.factor(answersthemes$theme)
+levels(experiencethemes$theme) = c("Algo/RO", "Archi", "Bioinfo", "GL/Prog", "Images", "Info Fond.", "Info Indus", "IA", "IHM", "Mod/Simu", "Réseaux", "Sys Inf/ion", "Sys Inf/ues")
+boxplot(experiencethemes[,1]~experiencethemes[,2], las=3)
+experienceassoc = as.data.frame(lapply(answersassoc[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui 
+experienceassoc$asso = as.factor(answersassoc$assoc)
+boxplot(experienceassoc[,1]~experienceassoc[,2], las=3)
 ```
 
 ### Associations
@@ -148,7 +186,7 @@ Votre objectif est de publier vos résultats plutôt en revue ou dans des actes 
 
 ```{r revuevsconf, echo=FALSE}
 mychoices(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
-mydetails(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
+mydetails(answersthemes$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
 mypie(answers$Votre.objectif.est.de.publier.vos.résultats.plutôt.en.revue.ou.dans.des.actes.de.conférence..)
 ```
 
@@ -158,7 +196,7 @@ Quelle est la fréquence des opportunités de publication en conférence de bonn
 
 ```{r frequence, echo=FALSE}
 mychoices(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
-mydetails(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
+mydetails(answersthemes$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
 mypie(answers$Quelle.est.la.fréquence.des.opportunités.de.publication.en.conférence.de.bonne.qualité.dans.votre.domaine..)
 ```
 
@@ -168,7 +206,7 @@ Est il courant dans votre domaine qu'une publication dans des actes d'une confé
 
 ```{r etendreenjournal, echo=FALSE}
 mychoices(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
-mydetails(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
+mydetails(answersthemes$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
 mypie(answers$Est.il.courant.dans.votre.domaine.qu.une.publication.dans.des.actes.d.une.conférence.permette.un.accès.à.la.publication.d.une.version.étendue.de.l.article.dans.une.revue.partenaire..)
 ```
 
@@ -178,7 +216,7 @@ En cas de soumission à une revue, quel temps s’écoule-t-il en moyenne entre 
 
 ```{r dureeprocessus, echo=FALSE}
 mychoices(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
-mydetails(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
+mydetails(answersthemes$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
 mypie(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.moyenne.entre.la.première.soumission.et.la.publication.de.l.article..)
 ```
 
@@ -188,7 +226,7 @@ mypie(answers$En.cas.de.soumission.à.une.revue..quel.temps.s.écoule.t.il.en.mo
 
 ```{r ordreauteurs, echo=FALSE}
 mychoices(answers$L.ordre.des.auteurs.est.il.significatif..)
-mydetails(answers$L.ordre.des.auteurs.est.il.significatif..)
+mydetails(answersthemes$L.ordre.des.auteurs.est.il.significatif..)
 mypie(answers$L.ordre.des.auteurs.est.il.significatif..)
 ```
 
@@ -204,7 +242,7 @@ Y a-t'il des canaux de communication privilégiés pour votre laboratoire ? Y a-
 
 ```{r mesuresincitatives, echo=FALSE}
 mychoices(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
-mydetails(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
+mydetails(answersthemes$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
 mypie(answers$Votre.laboratoire.a.t.il.des.mesures.incitatives.de.publication..)
 ```
 
@@ -228,7 +266,7 @@ Est ce que la localisation d'une conférence ou d'un atelier influe sur votre ch
 
 ```{r influencelocalisation, echo=FALSE}
 mychoices(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
-mydetails(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
+mydetails(answersthemes$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
 mypie(answers$Est.ce.que.la.localisation.d.une.conférence.ou.d.un.atelier.influe.sur.votre.choix.d.y.participer..pour.des.raisons.budgétaires.par.exemple..)
 ```
 
@@ -252,7 +290,7 @@ Quel est votre principal critère dans la sélection d’un canal de publication
 
 ```{r criteres, echo=FALSE}
 mychoices(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
-mydetails(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
+mydetails(answersthemes$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
 mypie(answers$Quel.est.votre.principal.critère.dans.la.sélection.d.un.canal.de.publication)
 ```
 
@@ -270,7 +308,7 @@ Déposez-vous systématiquement vos articles sur arXiv, HAL, etc ?
 
 ```{r archivesouvertes, echo=FALSE}
 mychoices(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
-mydetails(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
+mydetails(answersthemes$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
 mypie(answers$Déposez.vous.systématiquement.vos.articles.sur.arXiv..HAL..etc..)
 ```
 
@@ -280,7 +318,7 @@ Privilégiez-vous les revues ou conférences qui mettent à disposition de tous 
 
 ```{r critereoa, echo=FALSE}
 mychoices(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
-mydetails(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
+mydetails(answersthemes$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
 mypie(answers$Privilégiez.vous.les.revues.ou.conférences.qui.mettent.à.disposition.de.tous.les.articles.publiés..open.access...)
 ```
 
@@ -300,7 +338,7 @@ Les communications dans les conférences nationales sont-elles en français ou e
 
 ```{r frvsen,echo=FALSE}
 mychoices(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
-mydetails(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
+mydetails(answersthemes$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
 mypie(answers$Les.communications.dans.les.conférences.nationales.sont.elles.en.français.ou.en.anglais..)
 ```
 
