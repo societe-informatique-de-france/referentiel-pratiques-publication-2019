@@ -10,10 +10,10 @@ de publication des enseignants-chercheurs et chercheurs en
 informatique de France à partir des réponses à un sondage
 qui a eu lieu entre octobre 2018 et février 2019.
 
-Ce sondage a été élaboré par le conseil des associations des la SIF, suite à des discussions sur la diversité des pratiques de publication au sein même de la discipline informatique.
+Ce sondage a été élaboré par le conseil des associations de la SIF, suite à des discussions sur la diversité des pratiques de publication au sein même de la discipline informatique.
 Les résultats bruts du sondage ont été rendus publics [en mai 2019 par la SIF](https://www.societe-informatique-de-france.fr/2019/05/referentiel-des-publications-en-informatique/).
 
-Le référentiel a pour but de rendre publique des pratiques de publications connues des communautés thématiques mais pas forcément de l'ensemble de la communauté informatique.
+Le référentiel a pour but de rendre publiques des pratiques de publications connues des communautés thématiques mais pas forcément de l'ensemble de la communauté informatique.
 
 Le document a vocation à évoluer au cours du temps.
 
@@ -66,7 +66,7 @@ On note que plusieurs thématiques sont couvertes par plus de 150 réponses (Alg
 
 Cela est cohérent avec les statistiques des demandes de qualification aux fonctions de [maître de conférences](http://cnu27.iut2.upmf-grenoble.fr/Qualifications/2019/web-stats-mc-site-public-2019.pdf) ou de [professeur des universités](http://cnu27.iut2.upmf-grenoble.fr/Qualifications/2019/web-stats-pr-site-public-2019.pdf) de la section 27 du CNU. La communauté Interaction humain-machine s'est particulièrement mobilisé pour ce questionnaire.
 
-Il était aussi possible de compléter cette nomenclature en indiquant dans un champs texte libre sa thématique de recherche.
+Il était aussi possible de compléter cette nomenclature en indiquant dans un champ texte libre sa thématique de recherche.
 Le nuage de mots suivant résume les informations soumises par ce biais.
 
 ![](figure-gfm/wordcloud-1.png)
@@ -79,7 +79,7 @@ Avec une expérience médiane de 15 années, la moitié des réponses qui indiqu
 
 ![](figure-gfm/experience-2.png)
 
-Au niveau de l'origine des réponse, on note que l'expérience médiane parmi les réponses venant d'informatique théorique (GDR IM) est de 13 années alors que l'expérience médiane des réponses provenant des adhérents de la SIF est de 20 années.
+Au niveau de l'origine des réponses, on note que l'expérience médiane parmi les réponses venant d'informatique théorique (GDR IM) est de 13 années alors que l'expérience médiane des réponses provenant des adhérents de la SIF est de 20 années.
 
 
 ## Associations
@@ -140,7 +140,7 @@ viennent d'autres associations ou GDR.
 
 Si ces résultats sont cohérents avec la répartition par thématiques pour la RO (ROADEF) et l'informatique fondamentale (GDR IM), on ne retrouve pas le grand nombre de réponses en intelligence artificielle dans l'AFIA ou AFPC.
 
-# Medium de publication
+# Médium de publication
 
 ## Revue vs conférence
 
@@ -660,7 +660,7 @@ Par conséquent, dans toutes les thématiques, il est possible de trouver une ou
 
 ## Version étendue dans une revue partenaire
 
-A la question « Est il courant dans votre domaine qu’une publication dans des actes d’une conférence permette un accès à la publication d’une version étendue de l’article dans une revue partenaire ? », la majorité répond par l'affirmative.
+À la question « Est-il courant dans votre domaine qu’une publication dans des actes d’une conférence permette un accès à la publication d’une version étendue de l’article dans une revue partenaire ? », la majorité répond par l'affirmative.
 
 ![Version étendue dans une revue partenaire](figure-gfm/etendreenjournal-1.png)
 
@@ -1179,7 +1179,7 @@ le délai réduit pour la publication en revue est sans doute une conséquence d
 
 La sémantique de l'ordre des auteurs varie selon les communautés.
 Dans les pays anglo-saxons, la notion de premier auteur est importante.
-Si celui-ci est étudiant, il peut concourir aux prix du meilleur papier étudiant par exemple.
+Si celui-ci est étudiant, il peut concourir au prix du meilleur papier étudiant par exemple.
 
 Dans l'ensemble, l'ordre des auteurs est important.
 
@@ -1446,26 +1446,26 @@ L'environnement le plus proche du chercheur est son laboratoire. Dans de nombreu
 
 La question posée est :
 
-« Y a-t’il des canaux de communication privilégiés pour votre laboratoire ? Y a-t’il des règles (de financement des déplacements par exemple) qui influent sur le choix de vos canaux de publication ? »
+« Y a-t-il des canaux de communication privilégiés pour votre laboratoire ? Y a-t-il des règles (de financement des déplacements par exemple) qui influent sur le choix de vos canaux de publication ? »
 
 La réponse est globalement négative, et semble partagée par toutes les thématiques.
 
 ![Mesures incitatives du laboratoire](figure-gfm/mesuresincitatives-1.png)
 
 Dans les réponses ouvertes, on note que certains laboratoires
-sont en faveur des journaux car plus prestigieux et coûtent moins chers en mission,
+sont en faveur des journaux car plus prestigieux et coûtent moins cher en mission,
 d'autres financent uniquement les déplacements pour les conférences les plus
 sélectives. Pour de nombreux répondants, la participation à des conférences
 dépend avant tout des financements obtenus. On note aussi souvent des efforts pour
 permettre aux doctorants de présenter leurs travaux. Dans certains cas,
-le type et le nombre de publications a un impact direct sur la dotation de fonctionnement,
+le type et le nombre de publications ont un impact direct sur la dotation de fonctionnement,
 voire permet d'obtenir une prime.
 
 Une information qui ressort aussi des réponses ouvertes est l'usage « répressif » de la bibliométrie
 dans certains laboratoires. On note par exemple l'exclusion du laboratoire ou le passage de membre à membre associé si le nombre de publications internationales n'est pas suffisant.
 
 A l'heure ou les principaux organismes de recherche ont ratifié [Declaration on Research Assessment, DORA](https://sfdora.org),
-il faut espérer que la logique purement comptable des publications dans certains labos change.
+il faut espérer que la logique purement comptable des publications dans certains laboratoires change.
 
 ## Influence de la localisation
 
@@ -1476,14 +1476,14 @@ la décision d'y participer.
 
 ## Canaux utilisés pour communiquer un même résultat
 
-Un résultat peu être présenter de manière préliminaire à un atelier, afin d'obtenir 
+Un résultat peut être présenté de manière préliminaire à un atelier, afin d'obtenir 
 un premier retour de ses pairs, et permettre ainsi de consolider les résultats pour 
 une publication dans une conférence. Les retours de la présentation de ce travail, 
 avec des travaux annexes, peuvent servir de base à une version longue qui sera publiée en revue.
 
 De nos jours, il existe aussi la possibilité de déposer un article sur une archive ouverte pour obtenir un premier retour.
 
-Nous avons demandé quels étaient les canaux utilisés pour communiquer un même résultat (sous entendu à divers niveau de maturité).
+Nous avons demandé quels étaient les canaux utilisés pour communiquer un même résultat (sous-entendu à divers niveau de maturité).
 
 Les ateliers sont peu utilisés pour présenter un résultat. Les conférences sont les
 canaux privilégiés par rapport aux revues. L'utilisation des archives ouvertes semble important.
@@ -1589,7 +1589,7 @@ On note dans de nombreuses réponses ouvertes un désaccord de principe sur la n
 
 Un autre point intéressant dans les réponses ouvertes est l'utilisation de classements élaborés au niveau des GDR, comme ceux de SOC2 par exemple ([conférences](http://www.gdr-soc.cnrs.fr/conferences/), [revues](http://www.gdr-soc.cnrs.fr/les-revues-tableaux/)), ou des associations, comme [l'ATIEF](http://atief.fr/ressources/classement).
 
-On y aussi d'autres classements ou moyens d'évaluation des canaux :
+On y trouve aussi d'autres classements ou moyens d'évaluation des canaux :
 
 + l'agrégateur de classements [ConfenceRank](http://www.conferenceranks.com/) est très souvent cité ;
 + le site [DBLP](https://dblp1.uni-trier.de/) est mentionné pour savoir si la revue ou conférence est indexée ;
@@ -1597,7 +1597,7 @@ On y aussi d'autres classements ou moyens d'évaluation des canaux :
 
 ## Principal critère de sélection des canaux
 
-Comment sélectionne t'on un canal de publication ?
+Comment sélectionne t-on un canal de publication ?
 
 Pour cette question, une communauté est un ensemble de chercheurs qui ont l'habitude de se retrouver
 dans des ateliers ou des conférences très spécifiques, autour d'une problématique.
@@ -1605,16 +1605,16 @@ dans des ateliers ou des conférences très spécifiques, autour d'une probléma
 ![Mesures incitatives du laboratoire](figure-gfm/criteres-1.png)
 
 Pour la majorité des répondants, il s'agit avant tout de la renommée du canal au sein de la communauté.
-Le canal peut être a portée très large, avoir une renommée différente selon la thématique ou les communautés.
+Le canal peut être à portée très large, avoir une renommée différente selon la thématique ou les communautés.
 Les deux autres critères qui interviennent ensuite sont sa communauté (les lecteurs potentiels) et sa thématique (les sujets traités).
 
 Les réponses ouvertes indiquent bien que le choix du canal de publication est avant tout un équilibre entre
 le public que l'on souhaite toucher, sa propre communauté scientifique et la renommée de ce canal.
-La portée du résultat entre aussi en compte : un résultat a portée plus large
+La portée du résultat entre aussi en compte : un résultat à portée plus large
 permet de choisir un canal à plus large public (avec une renommée souvent plus importante). Une revue qui aurait déjà traité
 de la même problématique est aussi privilégiée.
 
-Le choix des revues apparait aussi en lien avec les conférences du domaine : les travaux présentés dans certaines conférences
+Le choix des revues apparaît aussi en lien avec les conférences du domaine : les travaux présentés dans certaines conférences
 sont naturellement publiés dans certaines revues. On note à ce propos des remarques sur la préférence de présenter son travail 
 à des conférences spécialisées (souvent moins renommées) que des conférences « généralistes » pour interagir avec plus de 
 chercheurs de sa communauté. Cela a donc un impact indirect sur le choix de la revue.
@@ -1631,7 +1631,7 @@ Quelles sont les pratiques en la matière en informatique ?
 
 ## Archivage ouvert
 
-Il est possible de déposer son travail à plusieurs niveau de maturité dans une archive ouverte type HAL ou arXiv (on parle de *green open access*) :
+Il est possible de déposer son travail à plusieurs niveaux de maturité dans une archive ouverte type HAL ou arXiv (on parle de *green open access*) :
 
 + dès que le résultat est obtenu : cela permet de diffuser sans attendre un résultat, mais aussi d'avoir un retour des lecteurs ;
 + dès que le papier est soumis pour évaluation : cela permet généralement de dater le travail ;
@@ -1640,7 +1640,7 @@ Il est possible de déposer son travail à plusieurs niveau de maturité dans un
 Ce dépôt peut être moins systématique (« quand j'y pense ») ou complètement absent de la pratique de publication.
 
 Les résultats globaux montrent que la tendance générale est de déposer ses
-publications dans un archive ouverte une fois l'article accepté.
+publications sur une archive ouverte une fois l'article accepté.
 
 ![Dépôt des articles dans des archives ouvertes](figure-gfm/archivesouvertes-1.png)
 
@@ -1932,7 +1932,7 @@ Systèmes.informatiques
 </tbody>
 </table>
 
-En Algorithme, recherche opérationnelle et en Informatique théorique, l'utilisation des archives ouvertes peut se faire avant la soumission, ou au moment de la soumission, ce que l'on ne retrouve pas dans les autres thématiques.
+En Algorithmique, recherche opérationnelle et en Informatique théorique, l'utilisation des archives ouvertes peut se faire avant la soumission, ou au moment de la soumission, ce que l'on ne retrouve pas dans les autres thématiques.
 
 ## Publication ouverte
 
@@ -1940,7 +1940,7 @@ Avec les changements de réglementation pour l'accès ouvert au niveau
 national ou européen, de nombreuses revues et conférences mettent 
 maintenant à  disposition de tous (gratuitement) l'accès à leurs articles publiés : on parle de publication ouverte, ou *gold open access*.
 
-Est ce que c'est un critère de choix quand il s'agit de choisir un canal
+Est-ce que c'est un critère de choix quand il s'agit de choisir un canal
 de communication ?
 
 ![L'accès ouvert comme critère](figure-gfm/critereoa-1.png)
@@ -2196,4 +2196,4 @@ Systèmes informatiques
 </tbody>
 </table>
 
-On retrouve en toute cohérence les thématiques Algorithme, recherche opérationnelle et Informatique théorique pour lesquelles l'aspect accès ouvert est souvent un critère de sélection d'un canal. On retrouve aussi des thématiques comme l'Intelligence Artificielle et les Systèmes d'information pour lesquelles ce critère compte, alors qu'elles n'ont pas une pratique particulièrement développée en terme d'archivage ouvert.
+On retrouve en toute cohérence les thématiques Algorithmique, recherche opérationnelle et Informatique théorique pour lesquelles l'aspect accès ouvert est souvent un critère de sélection d'un canal. On retrouve aussi des thématiques comme l'Intelligence Artificielle et les Systèmes d'information pour lesquelles ce critère compte, alors qu'elles n'ont pas une pratique particulièrement développée en terme d'archivage ouvert.
