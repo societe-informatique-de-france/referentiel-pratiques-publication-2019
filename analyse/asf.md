@@ -130,13 +130,6 @@ Pour le domaine de l'ASF, il n'est pas courant qu'une publication dans des actes
 
 Dans la communauté de l'ASF, le classement australien CORE est très majoritairement utilisé. Le 'label' IEEE, ACM ou IFIP est également utilisé comme un gage de qualité.
 
-## Archives ouvertes
-
-70% pré-publient en archive ouverte avant ou au moment de la
-soumission (contre 30% globalement)
-
-![Archives ouvertes](figure-gfm/gdrim/archivesouvertes-1.png)
-
 # Analyse des canaux de publication
 
 Les canaux considérés comme prestigieux ou recherchés correspondent très largement aux conférences et revues les mieux classées dans CORE.
