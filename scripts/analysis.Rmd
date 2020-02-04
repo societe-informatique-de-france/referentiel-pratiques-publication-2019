@@ -24,6 +24,20 @@ answers = read.csv("questionnaire_sur_les_pratiques_de_publication.tsv", encodin
 answers = answers[,10:80] # ignore useless columns
 thematiques = colnames(answers[1:13])
 associations = colnames(answers[16:35])
+thememapping = new.env()
+thememapping[["Algorithmique..recherche.opérationnelle"]]<-   "Algo/RO"                                            
+thememapping[["Architecture.des.machines"]]<-   "Archi"                              
+thememapping[["Bioinformatique"]]<-   "Bioinfo"                                        
+thememapping[["Génie.logiciel.et.programmation"]]<-   "GL/Prog"                                   
+thememapping[["Images.et.géométrie..scènes..parole..signaux"]]<-   "Images"                          
+thememapping[["Informatique.fondamentale"]]<-   "Info Fond."                      
+thememapping[["Informatique.industrielle"]]<-   "Info Indus"            
+thememapping[["Intelligence.Artificielle"]]<-   "IA"                    
+thememapping[["Interaction.humain.machine"]]<-   "IHM"                     
+thememapping[["Modélisation.simulation.pour.les.systèmes.complexes..systèmes.artificiels.et.naturels."]]<-   "Mod/Simu"
+thememapping[["Réseaux"]]<-   "Réseaux"
+thememapping[["Systèmes.d.information"]]<-   "Sys Inf/ion"
+thememapping[["Systèmes.informatiques"]]<- "Sys Inf/ues"
 ```
 
 Ce questionnaire a été relayé par les associations et GDR suivants :
@@ -31,7 +45,7 @@ Ce questionnaire a été relayé par les associations et GDR suivants :
 `r associations`
 
 ```{r echo=FALSE,message=FALSE}
-restriction="toutes"
+#restriction="toutes"
 #restriction="ACM.SIGGRAPH.France"
 #restriction="AFIA"
 #restriction="AFIG"
@@ -50,9 +64,9 @@ restriction="toutes"
 #restriction="ROADEF"
 #restriction="SIF"
 #restriction="SPECIF.Campus"
-#restriction="SSFAM"
+restriction="SSFAM"
 #restriction="autre"
-#answers = answers[answers[restriction] == 'X',]
+answers = answers[answers[restriction] == 'X',]
 nbreponses = nrow(answers)
 answers = unique(answers) # remove duplicates
 duplicate = function(df,cols) {
@@ -159,7 +173,7 @@ experience = as.data.frame(lapply(answers[15], function(a) {ifelse(a>100,ifelse(
 summary(experience)
 experiencethemes = as.data.frame(lapply(answersthemes[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui ont indiqué l'année de leur début
 experiencethemes$theme = as.factor(answersthemes$theme)
-levels(experiencethemes$theme) = c("Algo/RO", "Archi", "Bioinfo", "GL/Prog", "Images", "Info Fond.", "Info Indus", "IA", "IHM", "Mod/Simu", "Réseaux", "Sys Inf/ion", "Sys Inf/ues")
+levels(experiencethemes$theme) = sapply(levels(experiencethemes$theme),FUN=function(e) {thememapping[[e]]})
 boxplot(experiencethemes[,1]~experiencethemes[,2], las=3)
 experienceassoc = as.data.frame(lapply(answersassoc[15], function(a) {ifelse(a>100,ifelse(a<2018,2018-a,NA),a)})) # pour corriger le cas des personnes qui 
 experienceassoc$asso = as.factor(answersassoc$assoc)
