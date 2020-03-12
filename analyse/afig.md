@@ -15,17 +15,26 @@ La plupart des différences constatées par rapport aux pratiques moyennes de la
 Il en résulte que ce sont les revues qui sont mises en avant dans le référencement et qui sont bien indexées par les indicateurs, même si une partie conséquente des publications qu’elles éditent sont issues d’actes de conférences. Les conférences sont mises en second plan, comme indicateur du lieu de publication pour les membres de la communauté. Par exemple, une publication à la conférence SIGGRAPH 20xx sera référencée comme : ACM Transactions on Graphics, --(--), proc. of Siggraph 20xx, et les indicateurs iront pour la revue ACM TOG.
 
 ## Revue vs Conférence
+
 La communauté choisit de publier en très grande majorité dans des actes de conférence et en revues (réponse “les deux” du questionnaire), et dans des actes de conférences publiés par des revues. Le ciblage spécifique vers des actes de conférence ou en revue est très minoritaire. 
+
+![Revues vs conférences](figure-gfm/afig/revuevsconf-1.png)
 
 ## Fréquence des opportunités de publication
 La fréquence des opportunités de publication est “plusieurs fois par an”.
+
+![Fréquence des opportunités de publication dans des conférences de qualité](figure-gfm/afig/frequence-1.png)
 
 ## Version étendue en journal
 Est-il courant qu’une publication dans les actes d’une conférence donne accès à une version étendue dans une revue partenaire ?
 La réponse “oui”, déjà majoritaire en moyenne, est encore plus dominante ici.
 
+![Version étendue dans une revue partenaire](figure-gfm/afig/etendreenjournal-1.png)
+
 ## Durée du processus de publication
 En cas de soumission à une revue, le temps écoulé en moyenne entre la première soumission et la publication de l’article est très majoritairement “entre 6 mois et un an”, minoritairement “entre un et deux ans”, ce qui est très significativement plus rapide que la moyenne.
+
+![Version étendue dans une revue partenaire](figure-gfm/afig/dureeprocessus-1.png)
 
 ## Politique de publication
 
@@ -38,11 +47,15 @@ L’ordre des auteurs suit très majoritairement ces règles :
 
 La règle de l’ordre alphabétique est très peu répandue, à part entre contributeurs équivalents. 
 
+![Sémantique de l'ordre des auteurs](figure-gfm/afig/ordreauteurs-1.png)
+
 ### Mesures incitatives
 On observe deux tendances allant dans le sens d’une économie des moyens financiers :
 
 - Limiter les déplacements aux conférences lorsqu’une publication est acceptée, en favorisant les plus réputées.
 - Favoriser la publication en revue.
+
+![Mesures incitatives du laboratoire](figure-gfm/afig/mesuresincitatives-1.png)
 
 ## Classements revues et conférences
 Contrairement à la moyenne, où il est majoritairement utilisé, le classement CORE fait jeu égal avec les autres classements. Il suscite de fortes réserves, en particulier pour avoir classé très modestement des conférences et revues considérées comme de tout premier plan par la communauté. 
@@ -50,13 +63,19 @@ Contrairement à la moyenne, où il est majoritairement utilisé, le classement 
 ## Sélection d’un canal de publication
 Si les canaux les plus renommés sont préférés, ils sont souvent plus généralistes. Il est aussi fréquent de choisir une thématique ou une communauté plus restreinte, pour toucher un public plus intéressé. En particulier divers “workshop” et “symposium” associés ACM, IEEE ou EG sont très reconnus, et publient des travaux aboutis de très bonne à excellente qualité.
 
+![Critère de sélection des canaux](figure-gfm/afig/criteres-1.png)
+
 ## Ressources ouvertes
 
 ### Dépôt
 Très majoritairement, la mise en ligne sur des archives ouvertes n’est faite qu’une fois l’article final accepté. 
 
+![Dépôt des articles dans des archives ouvertes](figure-gfm/afig/archivesouvertes-1.png)
+
 ### Critère
 L’open accès est peu privilégié (en dessous de la moyenne).
+
+![L'accès ouvert comme critère](figure-gfm/afig/critereoa-1.png)
 
 # Analyse des canaux de publication
 
