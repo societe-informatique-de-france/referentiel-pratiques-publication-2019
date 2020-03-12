@@ -6,6 +6,70 @@ author: Association Française d'Informatique Graphique (AFIG)
 # Profil des participants
 Les participants au sondage qui a permis de réaliser ce rapport se rattachent au GdR IG-RV. La présente analyse représente plus particulièrement les membres de la communauté d’informatique graphique (AFIG). Ces participants se situent presque intégralement dans le thème CNU 27 “Images et géométrie, scènes, parole, signaux”. On trouve minoritairement “Intelligence Artificielle”, “Interaction humain machine”, et “Modélisation, simulation pour les systèmes complexes, systèmes artificiels et naturels”.
 
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<tbody>
+</tr>
+<tr>
+<td style="text-align:left;">
+Algorithmique, recherche.opérationnelle
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Informatique fondamentale
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Génie.logiciel.et.programmation.n
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Intelligence Artificielle
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Images et géométrie, scènes, parole, signaux
+</td>
+<td style="text-align:right;">
+45
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interaction humain machine
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Modélisation simulation pour les systèmes complexes, systèmes artificiels et naturels
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+</tbody>
+</table>
+
+![](figure-gfm/afig/wordcloud-1.png)
+
 # Comparaison avec le comportement général (medium de publication) 
 La plupart des différences constatées par rapport aux pratiques moyennes de la communauté informatique sont liées à deux singularités. 
 
