@@ -1980,7 +1980,7 @@ il faut espérer que la logique purement comptable des publications dans certain
 Sans grande surprise, on note que la localisation d'une conférence ou d'un atelier influence 
 la décision d'y participer.
 
-![Mesures incitatives du laboratoire](figure-gfm/influencelocalisation-1.png)
+![Influence de la localisation](figure-gfm/influencelocalisation-1.png)
 
 ## Canaux utilisés pour communiquer un même résultat
 
@@ -2110,7 +2110,7 @@ Comment sélectionne t-on un canal de publication ?
 Pour cette question, une communauté est un ensemble de chercheurs qui ont l'habitude de se retrouver
 dans des ateliers ou des conférences très spécifiques, autour d'une problématique.
 
-![Mesures incitatives du laboratoire](figure-gfm/criteres-1.png)
+![Critère de sélection des canaux](figure-gfm/criteres-1.png)
 
 Pour la majorité des répondants, il s'agit avant tout de la renommée du canal au sein de la communauté.
 Le canal peut être à portée très large, avoir une renommée différente selon la thématique ou les communautés.
