@@ -225,7 +225,7 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 - ACM Transactions on Applied Perception (TAP)
 - Frontiers in Robotics and AI
 
-##Canaux de qualité
+## Canaux de qualité
 
 - The Visual Computer (TVC)
 - Graphical Models (GMOD)
