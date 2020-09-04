@@ -5,7 +5,7 @@
   + [AFIG](afig.md)
   + [ASF](asf.md)
   + EGC
-  + GDR IG RV
+  + [GDR IG RV](gdrigrv)
   + [GDR IM](gdrim.md)
   + [ROADEF](roadef.md)
   + [SSFAM](ssfam.md)
