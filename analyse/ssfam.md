@@ -30,7 +30,23 @@ La localisation d'une conférence peut influencer sur le choix d'y participer. L
 
 # Analyse des canaux de publication
 
-*Note importante : l'apprentissage machine a la particularité d'être un domaine qui se situe naturellement à la frontière de plusieurs disciplines, son évolution large et rapide ses dernières années l'a vu se développer au sein de nouvelles disciplines que ce soit d'un point de vue plus théorique/fondamental ou applicatif. Il est aujourd'hui difficile de recenser l'ensemble des canaux pouvant contenir des contributions significatives en apprentissage et probablement illusoire de pouvoir le tenir à jour. La SSFAM indique à titre informatif un ensemble de canaux qui contiennent des contributions significatives pour l'avancée du domaine de l'apprentissage. L'association a fait le choix de séparer les canaux de publications (conférences ou revues) spécialisés en apprentissage machine des canaux non spécifiques au domaine (soit plus généraux, soit spécialisés pour certaines thématiques) mais pouvant contenir des contributions significative en apprentissage machine Cette liste indicative ne saurait être pleinement exhaustive ni complètement objective sur la qualité générale d'un canal de publication. Les choix mentionnés ci-dessous se focalisent sur l'aspect apprentissage machine selon les réponses fournies par le sondage de la SIF.* 
+## Note Importante
+
+L'*apprentissage machine* ou *machine learning (ML)* a la particularité d'être un domaine qui se
+situe naturellement à la frontière de plusieurs disciplines, son
+évolution large et rapide ses dernières années l'a vu se développer au
+sein de nouvelles disciplines que ce soit d'un point de vue plus
+théorique/fondamental ou applicatif. Il est aujourd'hui difficile de
+recenser l'ensemble des canaux pouvant contenir des contributions
+significatives en apprentissage et probablement illusoire de pouvoir
+le tenir à jour. La SSFAM indique à titre informatif un ensemble de
+canaux qui contiennent des contributions significatives pour l'avancée
+du domaine de l'apprentissage. Cette liste indicative ne saurait être
+pleinement exhaustive ni complètement objective sur la qualité
+générale d'un canal de publication. Les choix mentionnés ci-dessous se
+focalisent sur l'aspect apprentissage machine selon les réponses fournies par
+le sondage de la SIF. 
+De plus, il semble important de signaler que dans le domaine de l'apprentissage machine, les conférences sont très importantes et les canaux les plus prestigieux, de part leur processus de relecture et leur niveau de sélection, peuvent être considérés comme ayant une valeur similaire à de très bonnes revues.
 
 ## Canaux prestigieux
 
@@ -39,28 +55,38 @@ Définition : "les canaux de publication les plus prestigieux du domaine :
 - un chercheur de tout premier plan cherchera à y publier ses travaux
 - un résultat publié dans ces canaux sera remarqué par la communauté internationale"
 
-- **Conférences spécifiques ML** : NeurIPS, ICML, COLT
-- **Conférences non spécifiques ML** : CVPR, IJCAI, AAAI, ICCV, ACL, SIGIR, KDD, STOC, FOCS, SODA, WSDM
-- **Journaux spécifiques ML** : JMLR, 
-- **Journaux non spécifiques ML** : Science, Nature
+**Conférences spécifiques ML** : NeurIPS, ICML, COLT
+
+**Conférences non spécifiques ML** : CVPR, IJCAI, AAAI, ICCV, ACL, SIGIR, KDD, STOC, FOCS, SODA, WSDM
+
+**Journaux spécifiques ML** : JMLR,
+
+**Journaux non spécifiques ML** : Science, Nature
 
 ## Canaux recherchés
 
-Définition : "un chercheur de tout premier plan y aura publié régulièrement"
-"une publication dans ces canaux est un gage de reconnaissance internationale"
+Définition :
 
-- **Conférences spécifiques ML** : AISTATS, ICLR, ECML-PKDD, 
-- **Conférences non spécifiques ML** : ECAI, ECCV, EMNLP, IEEE ICDM, 
-- **Journaux spécifiques ML** : Machine Learning Journal, Neurocomputing
-- **Journaux non spécifiques ML** : IEEE TPAMI, IJCV,  TKDD,  DAMI,  DMKD, Pattern Recognition
+- "un chercheur de tout premier plan y aura publié régulièrement"
+- "une publication dans ces canaux est un gage de reconnaissance internationale"
+
+**Conférences spécifiques ML** : AISTATS, ICLR, ECML-PKDD, 
+
+**Conférences non spécifiques ML** : ECAI, ECCV, EMNLP, IEEE ICDM, 
+
+**Journaux spécifiques ML** : Machine Learning Journal, Neurocomputing
+
+**Journaux non spécifiques ML** : IEEE TPAMI, IJCV,  TKDD,  DAMI,  DMKD, Pattern Recognition
 
 ## Canaux de qualité
 
 Définition : "des canaux classiques et de qualité dans le domaine"
 
-- **Conférences spécifiques ML** : IJCNN, ALT, ESANN, ACML 
-- **Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
-- **Journaux** : Computer Vision and Image Understanging (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ) , IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)
+**Conférences spécifiques ML** : IJCNN, ALT, ESANN, ACML 
+
+**Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
+
+**Journaux** : Computer Vision and Image Understanging (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ) , IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)
 
 ## Canaux accessibles
 
