@@ -57,58 +57,29 @@ De plus, il semble important de signaler que dans le domaine de l'apprentissage 
         - un chercheur de tout premier plan cherchera à y publier ses travaux
         - un résultat publié dans ces canaux sera remarqué par la communauté internationale"
 
-Conférences spécifiques ML 
+- **Conférences spécifiques ML** : NeurIPS, ICML, COLT
+- **Conférences non spécifiques ML** : CVPR, IJCAI, AAAI, ICCV, ACL, SIGIR, KDD, STOC, FOCS, SODA, WSDM
+- **Journaux spécifiques ML** : JMLR, 
+- **Journaux non spécifiques ML** : Science, Nature
 
-: NeurIPS, ICML, COLT
-
-Conférences non spécifiques ML
-
-: CVPR, IJCAI, AAAI, ICCV, ACL, SIGIR, KDD, STOC, FOCS, SODA, WSDM
-
-Journaux spécifiques ML
-
-: JMLR,
-
-Journaux non spécifiques ML
-
-: Science, Nature
 
 ## Canaux recherchés
 
        Définition : "un chercheur de tout premier plan y aura publié régulièrement"
         "une publication dans ces canaux est un gage de reconnaissance internationale"
 
-Conférences spécifiques ML
-
-: AISTATS, ICLR, ECML-PKDD, 
-
-Conférences non spécifiques ML
-
-: ECAI, ECCV, EMNLP, IEEE ICDM,
-
-Journaux spécifiques ML
-
-: Machine Learning Journal, Neurocomputing
-
-Journaux non spécifiques ML
-
-: IEEE TPAMI, IJCV,  TKDD,  DAMI,  DMKD, Pattern Recognition
+- **Conférences spécifiques ML** : AISTATS, ICLR, ECML-PKDD, 
+- **Conférences non spécifiques ML** : ECAI, ECCV, EMNLP, IEEE ICDM, 
+- **Journaux spécifiques ML** : Machine Learning Journal, Neurocomputing
+- **Journaux non spécifiques ML** : IEEE TPAMI, IJCV,  TKDD,  DAMI,  DMKD, Pattern Recognition
 
 ## Canaux de qualité
 
         Définition : "des canaux classiques et de qualité dans le domaine"
 
-Conférences spécifiques ML
-
-: IJCNN, ALT, ESANN, ACML 
-
-Conférences non spécifiques ML
-
-: PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
-
-Journaux
-
-: Computer Vision and Image Understanging (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ) , IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)
+- **Conférences spécifiques ML** : IJCNN, ALT, ESANN, ACML 
+- **Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
+- **Journaux** : Computer Vision and Image Understanging (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ) , IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)
 
 
 ## Canaux accessibles
