@@ -48,53 +48,76 @@ focalisent sur l'aspect apprentissage machine selon les réponses fournies par
 le sondage de la SIF. 
 De plus, il semble important de signaler que dans le domaine de l'apprentissage machine, les conférences sont très importantes et les canaux les plus prestigieux, de part leur processus de relecture et leur niveau de sélection, peuvent être considérés comme ayant une valeur similaire à de très bonnes revues.
 
+
+
+
 ## Canaux prestigieux
 
-Définition : "les canaux de publication les plus prestigieux du domaine :
+        Définition : "les canaux de publication les plus prestigieux du domaine :
+        - un chercheur de tout premier plan cherchera à y publier ses travaux
+        - un résultat publié dans ces canaux sera remarqué par la communauté internationale"
 
-- un chercheur de tout premier plan cherchera à y publier ses travaux
-- un résultat publié dans ces canaux sera remarqué par la communauté internationale"
+Conférences spécifiques ML 
 
-**Conférences spécifiques ML** : NeurIPS, ICML, COLT
+: NeurIPS, ICML, COLT
 
-**Conférences non spécifiques ML** : CVPR, IJCAI, AAAI, ICCV, ACL, SIGIR, KDD, STOC, FOCS, SODA, WSDM
+Conférences non spécifiques ML
 
-**Journaux spécifiques ML** : JMLR,
+: CVPR, IJCAI, AAAI, ICCV, ACL, SIGIR, KDD, STOC, FOCS, SODA, WSDM
 
-**Journaux non spécifiques ML** : Science, Nature
+Journaux spécifiques ML
+
+: JMLR,
+
+Journaux non spécifiques ML
+
+: Science, Nature
 
 ## Canaux recherchés
 
-Définition :
+       Définition : "un chercheur de tout premier plan y aura publié régulièrement"
+        "une publication dans ces canaux est un gage de reconnaissance internationale"
 
-- "un chercheur de tout premier plan y aura publié régulièrement"
-- "une publication dans ces canaux est un gage de reconnaissance internationale"
+Conférences spécifiques ML
 
-**Conférences spécifiques ML** : AISTATS, ICLR, ECML-PKDD, 
+: AISTATS, ICLR, ECML-PKDD, 
 
-**Conférences non spécifiques ML** : ECAI, ECCV, EMNLP, IEEE ICDM, 
+Conférences non spécifiques ML
 
-**Journaux spécifiques ML** : Machine Learning Journal, Neurocomputing
+: ECAI, ECCV, EMNLP, IEEE ICDM,
 
-**Journaux non spécifiques ML** : IEEE TPAMI, IJCV,  TKDD,  DAMI,  DMKD, Pattern Recognition
+Journaux spécifiques ML
+
+: Machine Learning Journal, Neurocomputing
+
+Journaux non spécifiques ML
+
+: IEEE TPAMI, IJCV,  TKDD,  DAMI,  DMKD, Pattern Recognition
 
 ## Canaux de qualité
 
-Définition : "des canaux classiques et de qualité dans le domaine"
+        Définition : "des canaux classiques et de qualité dans le domaine"
 
-**Conférences spécifiques ML** : IJCNN, ALT, ESANN, ACML 
+Conférences spécifiques ML
 
-**Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
+: IJCNN, ALT, ESANN, ACML 
 
-**Journaux** : Computer Vision and Image Understanging (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ) , IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)
+Conférences non spécifiques ML
+
+: PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
+
+Journaux
+
+: Computer Vision and Image Understanging (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ) , IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)
+
 
 ## Canaux accessibles
 
-Définition : "des canaux de publication reconnus par la communauté,
-accessibles, qui permettent de présenter de premiers résultats
-et favoriser les échanges"
+        Définition : "des canaux de publication reconnus par la communauté,
+        accessibles, qui permettent de présenter de premiers résultats
+        et favoriser les échanges"
 
-- Conférence d'Apprentissage (CAp),
+- Conférence d'Apprentissage (CAp), 
 - Extraction et Gestion des Connaissances (EGC)
 - GDR-IA et GDR ISIS
 - Société Savante Francophone d'Apprentissage Machine (SSFAM)
@@ -105,4 +128,4 @@ et favoriser les échanges"
 - COnférence en Recherche d Information et Applications (CORIA)
 - Congrès Reconnaissance des Formes, Image, Apprentissage et Perception (RFIAP)
 - Journées francophones de programmation par contraintes (JFPC)
-- ...
+...
