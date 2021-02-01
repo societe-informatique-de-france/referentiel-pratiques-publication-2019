@@ -84,7 +84,7 @@ Définition : "des canaux classiques et de qualité dans le domaine"
 
 **Conférences spécifiques ML** : IJCNN, ALT, ESANN, ACML 
 
-**Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, ICASSP; IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
+**Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, ICASSP, IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
 
 **Journaux** : Computer Vision and Image Understanding (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ), IEEE Trans on Signal Processing (TSP)
 
