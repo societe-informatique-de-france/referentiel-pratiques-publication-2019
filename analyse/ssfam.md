@@ -41,7 +41,7 @@ recenser l'ensemble des canaux pouvant contenir des contributions
 significatives en apprentissage et probablement illusoire de pouvoir
 le tenir à jour. La SSFAM indique à titre informatif un ensemble de
 canaux qui contiennent des contributions significatives pour l'avancée
-du domaine de l'apprentissage. Cette liste indicative ne saurait �tre
+du domaine de l'apprentissage. Cette liste indicative ne saurait être
 pleinement exhaustive ni complètement objective sur la qualité
 générale d'un canal de publication. Les choix mentionnés ci-dessous se
 focalisent sur l'aspect apprentissage machine selon les réponses fournies par
@@ -84,7 +84,7 @@ Définition : "des canaux classiques et de qualité dans le domaine"
 
 **Conférences spécifiques ML** : IJCNN, ALT, ESANN, ACML 
 
-**Conf�rences non sp�cifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, ICASSP; IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
+**Conférences non spécifiques ML** : PAKDD, NAACL, COLING, SIAM DM, Recsys, ECIR, IDA, S+SSPR, ICPR, ICASSP; IEEE ICIP, ICONIP, ICTAI, ILP, ICDAR, ACCV, ICGI
 
 **Journaux** : Computer Vision and Image Understanding (CVIU), Theoretical Computer Science (TCS) , Knowledge and Information Systems (KAIS), Pattern Recognition Letters (PRL), Trans on Image Processing (TIP), Information Retrieval Journal (IRJ), IEEE Trans on Signal Processing (TSP)
 
@@ -102,7 +102,7 @@ et favoriser les échanges"
 - Journées de Statistique (JdS) de la SFdS
 - Colloque francophone de traitement du signal et des images (GRETSI)
 - Traitement Automatique de la Langue Naturelle TALN et RECITAL
-- Journées d'Analyse des Donn�es Textuelles
+- Journées d'Analyse des Données Textuelles
 - COnférence en Recherche d Information et Applications (CORIA)
 - Congrès Reconnaissance des Formes, Image, Apprentissage et Perception (RFIAP)
 - Journées francophones de programmation par contraintes (JFPC)
