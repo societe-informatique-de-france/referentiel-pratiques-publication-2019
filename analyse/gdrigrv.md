@@ -196,69 +196,79 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 # Analyse des canaux de publication
 
 ## Canaux prestigieux
+_Dans cette catégorie : un chercheur de tout premier plan cherchera à y publier ses travaux ; un résultat publié dans ces canaux sera remarqué par la communauté internationale._
 
 - ACM Transactions on Graphics (ToG) : revue, actes SIGGRAPH et SIGGRAPH ASIA
-- IEEE Transactions on Visualisation and Computer Graphics (TVCG) : revue, actes IEEE VR journal track, actes IEEE ISMAR, actes IEEE VIS
 - Computer Graphics Forum (CGF) : actes Eurographics, actes EuroVis
+- IEEE Transactions on Visualisation and Computer Graphics (TVCG) : revue, actes IEEE VR journal track, IEEE ISMAR journal track, actes IEEE VIS
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 
 ## Canaux recherchés
+_Dans cette catégorie : un chercheur de tout premier plan y aura publié régulièrement ; une publication dans ces canaux est un gage de reconnaissance internationale._
 
+- ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (ACM I3D)
+- ACM Symposium on User Interface Software and Technology (UIST)
+- ACM Transactions on Applied Perception (TAP)
 - Computer Graphics Forum (CGF) : revue, actes du Symposium on Computer Animation (SCA), actes Eurographics Symposium on Rendering (EGSR), actes du Symposium on Geometry Processing (SGP), actes - Pacific Graphics (PG), actes High Performance Graphics (HPG)
 - Computer Aided Design (CAD)
 - Computer Aided Geometric Design (CAGD)
 - Computer and Graphics (C&G) : revue et actes de Shape Modelling International (SMI)
-- IEEE Computer Graphics and Application (IEEE CG&A)
-- Symposium on Solid and Physical Modeling (SPM)
-- International Conference on Geometric Modeling Processing (GMP)
-- Journal of Mathematical Imaging and Vision
+- Conference on Human Factors in Computing Systems (CHI)
 - Discrete Applied Mathematics
+- Frontiers in Robotics and AI
+- Frontiers in Virtual Reality
+- ICAT-Eurographics EGVE : full paper
+- IEEE Computer Graphics and Application (IEEE CG&A)
 - IEEE Pacific Visualization Symposium (PacificVis) 
 - IEEE Symposium on Large Data Analysis and Visualization (LDAV)
-- ACM Symposium on User Interface Software and Technology (UIST)
-- The ACM Symposium on Virtual Reality Software and Technology (VRST)
-- ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (ACM I3D)
 - IEEE VR conference track
-- Conference on Human Factors in Computing Systems (CHI)
+- IEEE ISMAR conference track
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - IEEE International Conference on Robotics and Automation (ICRA)
-- ACM Transactions on Applied Perception (TAP)
-- Frontiers in Robotics and AI
+- International Conference on Geometric Modeling Processing (GMP)
+- Journal of Mathematical Imaging and Vision
+- Symposium on Solid and Physical Modeling (SPM)
+- The ACM Symposium on Virtual Reality Software and Technology (VRST) : full paper
 
 ## Canaux de qualité
+_Dans cette catégorie : des canaux classiques et de qualité dans le domaine._
 
-- The Visual Computer (TVC)
-- Graphical Models (GMOD)
-- Computer Graphics International (CGI)
-- EXPRESSIVE Symposium
-- Motion in Games (MiG)
 - ACM Symposium on Applied Perception (SAP)
+- Computer Graphics International (CGI)
+- Computer Animation and Virtual Worlds Journal (CAVW)
+- EuroVR (Springer)
+- EXPRESSIVE Symposium
+- Graphical Models (GMOD)
 - Graphics Interface (GI)
-- Journal of Computer Graphics Techniques (JCGT)
-- Workshop 3D Object Retrieval (3DOR)
-- International Symposium on Mouvement and Computing (MOCO)
+- ICAT-Eurographics EGVE : short paper
 - International Conference 3D Digital Imaging and Modeling (3DIM)
 - International Conference on Computer Graphics Theory and Applications (GRAPP)
 - International Conference on Human Computer Interaction Theory and Applications (HUCAPP)
 - International Conference on Computational Photography (ICCP)
 - International Conference on Computer Animation and Social Agents (CASA)
-- Computer Animation and Virtual Worlds Journal (CAVW)
-- Vision Modeling and Visualization (VMV)
+- International Symposium on Mouvement and Computing (MOCO)
+- International Conference on 3D Vision (3DV) 
+- Journal of Computer Graphics Techniques (JCGT)
+- Motion in Games (MiG)
 - Pattern Recognition
 - Pattern Recognition Letters
-- International Conference on 3D Vision (3DV) 
+- PRESENCE: Virtual and Augmented Reality
 - Springer Machine Vision and Applications
 - Springer Virtual Reality
-- PRESENCE: Virtual and Augmented Reality
+- The ACM Symposium on Virtual Reality Software and Technology (VRST) : short paper
+- The Visual Computer (TVC)
+- Vision Modeling and Visualization (VMV)
+- Workshop 3D Object Retrieval (3DOR)
 
 ## Canaux accessibles
+_Dans cette catégorie : des canaux de publication reconnus par la communauté, accessibles, qui permettent de présenter de premiers résultats et favoriser les échanges._
 
+- ACM SIGGRAPH European Conference on Visual Media Production
+- Conférence Francophone sur l’Interaction Homme-Machine (IHM)
+- Discrete Geometry for Computer Imagery
 - Journées Françaises d’Informatique Graphique (jFIG)
 - Journées du GdR IGRV
 - Journées de l’AFRV
-- Conférence Francophone sur l’Interaction Homme-Machine (IHM)
 - Virtual Reality International Conference - Laval Virtual (VRIC)
 - Spring Conference on Computer Graphics (SCCG)
 - World Society for Computer Graphics (WSCG) : International Conferences in Central Europe on Computer Graphics, Visualization and Computer Vision
-- ACM SIGGRAPH European Conference on Visual Media Production
-- Discrete Geometry for Computer Imagery
