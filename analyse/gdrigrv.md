@@ -196,6 +196,7 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 # Analyse des canaux de publication
 
 ## Canaux prestigieux
+_Dans cette catégorie : un chercheur de tout premier plan cherchera à y publier ses travaux ; un résultat publié dans ces canaux sera remarqué par la communauté internationale._
 
 - ACM Transactions on Graphics (ToG) : revue, actes SIGGRAPH et SIGGRAPH ASIA
 - IEEE Transactions on Visualisation and Computer Graphics (TVCG) : revue, actes IEEE VR journal track, actes IEEE ISMAR, actes IEEE VIS
@@ -203,6 +204,7 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 
 ## Canaux recherchés
+_Dans cette catégorie : un chercheur de tout premier plan y aura publié régulièrement ; une publication dans ces canaux est un gage de reconnaissance internationale._
 
 - Computer Graphics Forum (CGF) : revue, actes du Symposium on Computer Animation (SCA), actes Eurographics Symposium on Rendering (EGSR), actes du Symposium on Geometry Processing (SGP), actes - Pacific Graphics (PG), actes High Performance Graphics (HPG)
 - Computer Aided Design (CAD)
@@ -219,6 +221,7 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 - The ACM Symposium on Virtual Reality Software and Technology (VRST)
 - ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (ACM I3D)
 - IEEE VR conference track
+- IEEE ISMAR conference track
 - Conference on Human Factors in Computing Systems (CHI)
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - IEEE International Conference on Robotics and Automation (ICRA)
@@ -226,6 +229,7 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 - Frontiers in Robotics and AI
 
 ## Canaux de qualité
+_Dans cette catégorie : des canaux classiques et de qualité dans le domaine._
 
 - The Visual Computer (TVC)
 - Graphical Models (GMOD)
@@ -252,6 +256,7 @@ L’open accès est peu privilégié (en dessous de la moyenne).
 - PRESENCE: Virtual and Augmented Reality
 
 ## Canaux accessibles
+_Dans cette catégorie : des canaux de publication reconnus par la communauté, accessibles, qui permettent de présenter de premiers résultats et favoriser les échanges._
 
 - Journées Françaises d’Informatique Graphique (jFIG)
 - Journées du GdR IGRV
